@@ -1238,7 +1238,7 @@
 	}
 
 		#wrapper > .main {
-			margin-bottom: 4em;
+			margin-bottom: 0;
 		}
 
 		@media screen and (max-width: 980px) {
@@ -1248,7 +1248,7 @@
 			}
 
 				#wrapper > .main {
-					margin-bottom: 2em;
+					margin-bottom: 0;
 				}
 
 		}
@@ -1261,7 +1261,7 @@
 			}
 
 				#wrapper > .main {
-					margin-bottom: 1em;
+					margin-bottom: 0;
 				}
 
 		}
