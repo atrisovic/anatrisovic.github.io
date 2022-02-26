@@ -1,0 +1,19 @@
+name: Send Slides to Dataverse
+
+on: 
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Slides to Dataverse 
+        uses: atrisovic/dataverse-uploader@master
+        with:
+          DATAVERSE_TOKEN: ${{secrets.DATAVERSE_TOKEN}}
+          DATAVERSE_SERVER: https://dataverse.harvard.edu
+          DATAVERSE_DATASET_DOI: doi:10.7910/DVN/8VZ1I6
+          GITHUB_DIR: docs/slides 
+          DELETE: True 
+          PUBLISH: True
