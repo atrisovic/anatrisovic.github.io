@@ -216,6 +216,19 @@ body {
 	}
 
 }
+@media screen and (max-width: 600px) {
+    .responsive-table {
+      width: 100%;
+      overflow-x: auto;
+	  margin-left: auto;
+	  margin-right: auto;
+    }
+    .responsive-table td {
+      width: 100%;
+      display: block;
+      text-align: center;
+    }
+  }
 
 @media screen and (max-width: 1280px) {
 
