@@ -9,6 +9,28 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="icon" type="image/jpg" href="images/fav2.jpg" />
     <title>{{ page.title }}</title>
+
+    <style>
+        .banner-content {
+            width: 50%; /* Maximum width */
+            margin: auto; /* Centering */
+        }
+
+        .inner-content {
+            margin: 0 10%; /* Reduced margin for smaller screens */
+        }
+
+        /* Media query for larger screens */
+        @media (min-width: 600px) {
+            .banner-content {
+                margin-right: auto; /* Align the div to the right on large screens */
+                margin-left: 0;
+            }
+            .inner-content {
+                margin: 0 20%; /* Larger margin for larger screens */
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -24,8 +46,8 @@
     {% if page.url == "/" or page.name == "index.html" %}
     <!-- Banner -->
     <section id="banner">
-        <div class="content" style="width: 50%;">
-            <div style="margin: 0 20%;">
+        <div class="banner-content">
+            <div class="inner-content">
                 <h1>Ana Trisovic</h1>
                 <p>Research Scientist
                     <br>
