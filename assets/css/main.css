@@ -3186,6 +3186,13 @@ body {
 	text-align: center;
 }
 
+/* Media query for smaller screens */
+@media (max-width: 768px) { /* Adjust 768px as needed for your breakpoint */
+    #banner {
+        background-position: 65% top; /* Focus on the right side of the image */
+    }
+}
+
 #banner-alt {
 	padding: 14em 0 15em 0;
 	background-image: url(../../images/img23.png);
