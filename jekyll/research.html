@@ -1,0 +1,35 @@
+---
+layout: default
+title: Research
+banner: images/jpg3.jpg
+---
+
+
+<h1>Featured Publications</h1>
+
+<section id="three" class="wrapper">
+    <div class="inner flex flex-3">
+        {% include featured.html %}
+    </div>
+</section>
+
+<h1>Publications</h1>
+
+<div class="row 200%">
+    <div class="12u">
+        {% for publication in site.data.publications %}
+        <h3><a href="{{ publication.url }}">{{ publication.name }}</a></h3>
+        <p>{{ publication.authors }}<em> {{ publication.note }}</em>
+            <br>{{ publication.venue }}, {{ publication.year }}
+        <details>
+            <summary>Description</summary>
+            <blockquote>
+                {{ publication.description }}
+            </blockquote>
+        </details>
+        </p>
+        <div class="grayline"></div>
+        {% endfor %}
+        </header>
+    </div>
+</div>

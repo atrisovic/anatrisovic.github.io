@@ -1,0 +1,38 @@
+- authors: Lee W., Wu X., Heo S., Kim J. M., Fong K. C., Son J., Sabath M. B., Trisovic A., Braun D., Park J. Y., Kim Y. C., Lee J. P., Schwartz J., Kim H., Dominici F., Al-Aly Z., and Bell M. L.
+  venue: Environmental Health Perspectives
+  year: 2023
+  image: images/logo-ehp2.jpg
+  name: 'Air Pollution and Acute Kidney Injury in the US Medicare Population: A Longitudinal Cohort Study'
+  description: The article investigates the association between short-term exposure to air pollution and acute kidney injury (AKI) in the US Medicare population.
+  url: ""
+- authors: Garijo D., Ménager H., Hwang L., Trisovic A., Hucka M., Morrell T., Allen A., Task Force on Best Practices for Software Registries, SciCodes Consortium. 
+  venue: PeerJ Computer Science
+  year: 2022
+  image: images/logo-peer-j.jpg
+  name: Nine best practices for research software registries and repositories
+  url: https://peerj.com/articles/cs-1023/?utm_source=Social&utm_medium=Twitter&utm_campaign=cs-1023
+  description: As the FORCE11 Software Citation Implementation Working Group, we describe the best practices for software repositories and registries which include defining the scope, policies, and governing rules, along with the background, examples, and collaborative work that went into their development.
+- authors: Trisovic A., Pasquier T., Lau M. K., and Crosas M.
+  venue: Nature Scientific Data
+  year: 2022
+  image: images/logo-sci-dat.jpg
+  name: A Large-Scale Study on Research Code Quality and Execution
+  url: https://www.nature.com/articles/s41597-022-01143-6
+# - authors: Trisovic, A., Jones, C. R., Couturier, B., & Clemencic, M.
+#   year: 2020
+#   name: Provenance Tracking in the LHCb Software.
+#   venue: Computing in Science & Engineering (CISE)
+#   image: images/logo-cise.jpg
+#   description: We argue that reproducibility needs to be incorporated into the existing infrastructure and present a new functionality in the CERN software that captures all information within a resulting dataset necessary to reproduce it.
+# - authors: Goeva, A., Stoudt, S., &amp; Trisovic, A. 
+#   year: 2020
+#   name: 'Toward Reproducible and Extensible Research: From Values to Action'
+#   venue: Harvard Data Science Review
+#   url: https://hdsr.mitpress.mit.edu/pub/lm3txy12/release/2
+#   image: images/logo-hdsr.jpg
+# - authors: Chen, X., Dallmeier-Tiessen, S., Dasler, R., Feger, S., Fokianos, P., Gonzalez, J. B., Hirvonsalo, H., Kousidis, D., Lavasa, A., Mele, S., Rodriguez, D. R., Šimko, T., Smith, T., Trisovic, A., Trzcinska, A., Tsanaktsidis, I., Zimmermann, M., Cranmer, K., Heinrich, L., Watts, G., Hildreth, M., Lloret Iglesias, L., Lassila-Perini, K., & Neubert, S.
+#   year: 2019
+#   name: Open is not enough.
+#   venue: Nature Physics
+#   image: images/logo-naphy.jpg
+#   description: The platforms CERN Analysis Preservation and Reusable Analyses (REANA) are created to facilitate reproducible research for the LHC experiments at CERN. The project, CERN Open Data, disseminates particle-physics data that can be used for research.
