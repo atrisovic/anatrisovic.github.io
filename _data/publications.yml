@@ -10,6 +10,12 @@
   name: 'Air Pollution and Acute Kidney Injury in the US Medicare Population: A Longitudinal Cohort Study'
   description: The article investigates the association between short-term exposure to air pollution and acute kidney injury (AKI) in the US Medicare population.
   url: ""
+- authors: Bouquin D., Trisovic A., Bertuch O., Colón-Marrero E.
+  venue: Software Citation Workshop 2022 (ArXiv)
+  year: 2023
+  name: Advancing Software Citation Implementation
+  description: Software's pivotal role in progress is not mirrored in traditional acknowledgments. This report from captures insights from 51 global experts on unresolved software citation issues. It aims to pinpoint and tackle these challenges, benefiting the GLAM community, repository managers, software developers, and publishers.
+  url: https://arxiv.org/abs/2302.07500
 - authors: Garijo D., Ménager H., Hwang L., Trisovic A., Hucka M., Morrell T., Allen A., Task Force on Best Practices for Software Registries, SciCodes Consortium. 
   venue: PeerJ Computer Science
   year: 2022
