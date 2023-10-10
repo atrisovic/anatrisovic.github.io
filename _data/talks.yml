@@ -1,3 +1,11 @@
+- link: "https://irdta.eu/deeplearn-events/"
+  title: "Principles, Statistical and Computational Tools for Reproducible Data Science"
+  description: Deep Learning & Big Data Summer School 2023
+
+- link: ""
+  title: "Enabling reproducibility, transparency and reuse in computational data science"
+  description: at Cultivarium (www.cultivarium.org) on April 7, 2023
+
 - link: "docs/slides/202207_BOF_PEARC22.pdf"
   title: "BoF on 'Reproducibility and Trustworthiness of Scientific Research'"
   description: "by H. Birali Runesha, Ana Trisovic, Sandra Gesing and James Wilgenbusch at PEARC22"
