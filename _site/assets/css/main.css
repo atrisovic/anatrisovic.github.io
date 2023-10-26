@@ -2599,6 +2599,13 @@ table.alt tfoot {
 
 /* Button */
 
+.white {
+	color: #ffffff;
+	text-align: center;
+	font-family: "Montserrat", sans-serif;
+	text-transform: uppercase;
+}
+
 input[type="submit"],
 input[type="reset"],
 input[type="button"],
