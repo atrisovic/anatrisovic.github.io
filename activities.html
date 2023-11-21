@@ -4,6 +4,19 @@ title: Activities
 banner: images/img7.jpg
 ---
 
+<h1>Featured Teaching</h1>
+
+<div class="row 200%">
+  <div class="12u">
+    {% for presentation in site.data.teaching %}
+    <h3><a href="{{ presentation.link }}">{{ presentation.title }}</a></h3>
+    <p>{{ presentation.description }}</p>
+    <div class="grayline"></div>
+    {% endfor %}
+    </header>
+  </div>
+</div>
+
 <h1>Featured Talks</h1>
 
 <div class="row 200%">
