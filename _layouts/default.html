@@ -30,6 +30,23 @@
                 margin: 0 20%; /* Larger margin for larger screens */
             }
         }
+
+        .container {
+            display: flex;
+            align-items: center; /* Aligns items vertically in the center */
+        }
+
+        .div1, .div2 {
+            flex: 1; /* Each div takes up equal space */
+            padding: 10px; /* Spacing inside the divs */
+            text-align: center; /* Center text horizontally */
+        }
+
+        .div1 {
+            border-right: 1px solid #dddddd; /* 1px solid vertical line on the right of div1 */
+        }
+
+        /* Optional: Add more styling as per your needs */
     </style>
 </head>
 
@@ -53,7 +70,7 @@
                     <br>
                 <div class="line"></div>Computer
                 Science and Artificial Intelligence Laboratory (CSAIL) & <br> MIT Sloan School Of Management</p>
-                <ul class="icons" style="display: flex; justify-content: center; align-items: center;">
+                <ul class="icons" style="display: flex; margin-top: 3em; justify-content: center; align-items: center;">
                     <li><a href="https://twitter.com/atrisovic" class="icon fa-twitter"><span
                                 class="label">Twitter/X</span></a>
                     </li>
@@ -88,37 +105,36 @@
     </section>
     <!-- Footer -->
     <footer id="footer">
-
-        <div class="row">
-            <div class="6u 12u$(small)">
-                <ul class="actions" style="text-align: right;">
-                    {% for item in site.data.navigation %}
-                    <li><a href="{{ item.link }}" class="label">
-                            {{ item.name }}
-                        </a></li></br>
-                    {% endfor %}
-                </ul>
+        <div class="container">
+            <div class="div1">
+                    <ul class="actions" style="text-align: right;">
+                        {% for item in site.data.navigation %}
+                        <li><a href="{{ item.link }}" class="label">
+                                {{ item.name }}
+                            </a></li></br>
+                        {% endfor %}
+                    </ul>
             </div>
-            <div class="6u$ 12u$(small)" style="border-left: 1px solid #dddddd">
-                <ul class="actions" style="text-align: left;">
-                    <li><span class="icon fa-twitter"></span><a href="https://twitter.com/atrisovic"><span
-                                class="label">
-                                Twitter/X</span></a></li></br>
-                    <li><span class="icon fa-linkedin"></span><a
-                            href="https://www.linkedin.com/in/ana-trisovic-48548636/"><span class="label"></span>
-                            LinkedIn</span></a></li></br>
-                    <li><span class="icon fa-instagram"></span><a href="https://www.instagram.com/atrisovic"><span
-                                class="label"> Instagram</span></a></li></br>
-                    <li><span class="icon fa-github"></span><a href="https://github.com/atrisovic"><span class="label">
-                                GitHub</span></a></li></br>
-                    <li><span class="icon fa-book"></span> <a
-                            href="https://scholar.google.com/citations?user=pXNKpl8AAAAJ"><span class="label">
-                                Scholar</span></a></li></br>
-                    <li><span class="icon fa-envelope"></span> <a href="mailto:ana_tris@mit.edu"><span class="label">
-                                Email</span></a></li></br>
-                    <li><span class="icon fa-map-marker"></span> 32G-724</li></br>
-                </ul>
-            </div>
+            <div class="div2">
+                    <ul class="actions" style="text-align: left;">
+                        <li><span class="icon fa-twitter"></span><a href="https://twitter.com/atrisovic"><span
+                                    class="label">
+                                    Twitter/X</span></a></li></br>
+                        <li><span class="icon fa-linkedin"></span><a
+                                href="https://www.linkedin.com/in/ana-trisovic-48548636/"><span class="label"></span>
+                                LinkedIn</span></a></li></br>
+                        <li><span class="icon fa-instagram"></span><a href="https://www.instagram.com/atrisovic"><span
+                                    class="label"> Instagram</span></a></li></br>
+                        <li><span class="icon fa-github"></span><a href="https://github.com/atrisovic"><span class="label">
+                                    GitHub</span></a></li></br>
+                        <li><span class="icon fa-book"></span> <a
+                                href="https://scholar.google.com/citations?user=pXNKpl8AAAAJ"><span class="label">
+                                    Scholar</span></a></li></br>
+                        <li><span class="icon fa-envelope"></span> <a href="mailto:ana_tris@mit.edu"><span class="label">
+                                    Email</span></a></li></br>
+                        <li><span class="icon fa-map-marker"></span> 32G-724</li></br>
+                    </ul>
+                </div>
         </div>
     </footer>
 
