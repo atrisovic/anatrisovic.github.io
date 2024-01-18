@@ -1,3 +1,10 @@
+- authors: Tec M., Trisovic A., Audirac M., Woodward S., Khoshnevis N., and Dominici F.
+  venue: The 12th International Conference on Learning Representations (ICLR)
+  year: 2024
+  image: images/logo-iclr.jpg
+  name: 'SpaCE: The Spatial Confounding Environment'
+  description: We introduce SpaCE - The Spatial Confounding Environment, the first toolkit to provide realistic benchmark datasets and tools for systematically evaluating causal inference methods designed to alleviate spatial confounding.
+  url: "https://nsaph-projects.github.io/space/"
 - authors: Tec M., Trisovic A., Audirac M., and Dominici F
   venue: Causal Learning and Reasoning (CLeaR)
   year: 2023
