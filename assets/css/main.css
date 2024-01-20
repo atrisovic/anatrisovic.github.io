@@ -3189,7 +3189,7 @@ body {
 /* Media query for smaller screens */
 @media (max-width: 768px) { /* Adjust 768px as needed for your breakpoint */
     #banner {
-        background-position: 65% top; /* Focus on the right side of the image */
+        background-position: 64% top; /* Focus on the right side of the image */
     }
 }
 
