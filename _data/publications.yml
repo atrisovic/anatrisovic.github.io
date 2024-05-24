@@ -1,10 +1,20 @@
-- authors: Tec M., Trisovic A., Audirac M., Woodward S., Khoshnevis N., and Dominici F.
+- authors: Hu, J. K., Trisovic, A., Bakshi, A., Braun, D., Dominici, F., & Casey, J. A.
+  year: 2024
+  name: Co-exposure to Extreme Heat, Wildfire Burn Zones, and Wildfire Smoke in the Western US from 2006 to 2020 
+  venue: Submitted for peer-review
+- authors: Rising, J. A., Hussain, A., Schwarzwald, K., &amp; Trisovic, A. 
+  year: 2024
+  name: 'A Practical Guide to Climate Econometrics: Navigating Key Decision Point in Weather and Climate Data Analysis' 
+  venue: Journal of Open Source Education (JOSE)
+  description: We present a free and open-source tutorial on the practical aspects of climate econometrics, which includes data collection, analysis design, and result presentation (available at climateestimate.net).
+  url: https://jose.theoj.org/papers/10.21105/jose.00090
+- authors: Tec M., Trisovic A., Audirac M., Woodward S., Hu J. K., Khoshnevis N., and Dominici F.
   venue: The 12th International Conference on Learning Representations (ICLR)
   year: 2024
   image: images/logo-iclr.jpg
   name: 'SpaCE: The Spatial Confounding Environment'
   description: We introduce SpaCE - The Spatial Confounding Environment, the first toolkit to provide realistic benchmark datasets and tools for systematically evaluating causal inference methods designed to alleviate spatial confounding.
-  url: "https://nsaph-projects.github.io/space/"
+  url: "https://arxiv.org/abs/2312.00710"
 - authors: Tec M., Trisovic A., Audirac M., and Dominici F
   venue: Causal Learning and Reasoning (CLeaR)
   year: 2023
@@ -69,11 +79,6 @@
   name: Repository Approaches to Improving the Quality of Shared Data and Code
   venue: Data
   description: We propose three approaches based on computational reproducibility, data curation, and gamified design elements that can be used to indicate and improve the quality of shared data and code in data repositories.
-- authors: Rising, J. A., Hussain, A., Schwarzwald, K., &amp; Trisovic, A. 
-  year: 2021
-  name: 'A Practical Guide to Climate Econometrics: Navigating Key Decision Point in Weather and Climate Data Analysis' 
-  venue: Journal of Open Source Education (JOSE)
-  description: We present a free and open-source tutorial on the practical aspects of climate econometrics, which includes data collection, analysis design, and result presentation (available at climateestimate.net).
 - authors: Frost, S., Goeva, A., Pombra, J., Seaton, W., Stoudt, S., Trisovic, A., Wang, C., &amp; Zucker, C. 
   year: 2021
   note: (alphabetical)
