@@ -1,4 +1,4 @@
-- authors: Hu, J. K., Trisovic, A., Bakshi, A., Braun, D., Dominici, F., & Casey, J. A.
+- authors: Hu, J. K.*, Trisovic, A.*, Bakshi, A., Braun, D., Dominici, F., & Casey, J. A.
   year: 2024
   name: Co-exposure to Extreme Heat, Wildfire Burn Zones, and Wildfire Smoke in the Western US from 2006 to 2020 
   venue: Submitted for peer-review
@@ -36,7 +36,7 @@
 - authors: Garijo D., Ménager H., Hwang L., Trisovic A., Hucka M., Morrell T., Allen A., Task Force on Best Practices for Software Registries, SciCodes Consortium. 
   venue: PeerJ Computer Science
   year: 2022
-  name: Nine best practices for research software registries and repositories
+  name: Nine Best Practices for Research Software Registries and Repositories
   url: https://peerj.com/articles/cs-1023/?utm_source=Social&utm_medium=Twitter&utm_campaign=cs-1023
   description: As the FORCE11 Software Citation Implementation Working Group, we describe the best practices for software repositories and registries which include defining the scope, policies, and governing rules, along with the background, examples, and collaborative work that went into their development.
 - authors: Trisovic A.
@@ -64,12 +64,12 @@
   description: We elaborate on open hardware dissemination and reuse complexity, present examples of unique demands, and propose leveraging FAIR principles to make it findable, accessible, interoperable, and reusable.
 - authors: Blumenthal, K., Goeva, A., Stoudt, S., Trisovic, A., & Trisovic, P. 
   year: 2021
-  note: (alphabetical)
+  note: (α-β)
   name: Why Do We Plot Data?
   venue: Harvard Data Science Review
   description: Explainer Zine for the article "Designing for interactive exploratory data analysis requires theory of graphical inference."
 - authors: Goeva, A., Jones, P., Stoudt, S., &amp; Trisovic, A.
-  note: (alphabetical)
+  note: (α-β)
   year: 2021
   name: Recipes for Connector Courses From the Early-Career Board Kitchen
   venue: Harvard Data Science Review
@@ -81,19 +81,19 @@
   description: We propose three approaches based on computational reproducibility, data curation, and gamified design elements that can be used to indicate and improve the quality of shared data and code in data repositories.
 - authors: Frost, S., Goeva, A., Pombra, J., Seaton, W., Stoudt, S., Trisovic, A., Wang, C., &amp; Zucker, C. 
   year: 2021
-  note: (alphabetical)
+  note: (α-β)
   name: Kaleidoscopic Perspectives on Practicum-Based Data Science Education
   venue: Harvard Data Science Review
   description: Early-Career Board members of the Harvard Data Science Review discuss the acquisition of practical data science skills and share their experiences from a number of disciplines.
 - authors: Goeva, A., Stoudt, S., &amp; Trisovic, A. 
   year: 2020
-  note: (alphabetical)
+  note: (α-β)
   name: 'Toward Reproducible and Extensible Research: From Values to Action'
   venue: Harvard Data Science Review
   description: This paper discusses the National Academies' report "Reproducibility and Replicability in Science," advocating for reusability and the need for actionable and hierarchical steps for researchers.
 - authors: Frost, S., Goeva, A., Seaton, W., Stoudt, S., &amp; Trisovic, A. 
   year: 2020
-  note: (alphabetical)
+  note: (α-β)
   name: 'Early-Career View on Data Science Challenges: Responsibility, Rigor, and Accessibility'
   venue: Harvard Data Science Review
   description: Early-Career Board members of the Harvard Data Science Review present their view of top research challenge areas in data science.
@@ -114,7 +114,8 @@
   description: We argue that reproducibility needs to be incorporated into the existing infrastructure and present a new functionality in the CERN software that captures all information within a resulting dataset necessary to reproduce it.
 - authors: Chen, X., Dallmeier-Tiessen, S., Dasler, R., Feger, S., Fokianos, P., Gonzalez, J. B., Hirvonsalo, H., Kousidis, D., Lavasa, A., Mele, S., Rodriguez, D. R., Šimko, T., Smith, T., Trisovic, A., Trzcinska, A., Tsanaktsidis, I., Zimmermann, M., Cranmer, K., Heinrich, L., Watts, G., Hildreth, M., Lloret Iglesias, L., Lassila-Perini, K., & Neubert, S.
   year: 2019
-  name: Open is not enough.
+  note: (α-β)
+  name: Open is Not Enough.
   venue: Nature Physics
   description: The platforms CERN Analysis Preservation and Reusable Analyses (REANA) are created to facilitate reproducible research for the LHC experiments at CERN. The project, CERN Open Data, disseminates particle-physics data that can be used for research.
 - authors: Trisovic, A.

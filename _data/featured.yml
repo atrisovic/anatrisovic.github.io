@@ -22,7 +22,7 @@
   venue: PeerJ Computer Science
   year: 2022
   image: images/logo-peer-j.jpg
-  name: Nine best practices for research software registries and repositories
+  name: Nine Best Practices for Research Software Registries and Repositories
   url: https://peerj.com/articles/cs-1023/?utm_source=Social&utm_medium=Twitter&utm_campaign=cs-1023
   description: As the FORCE11 Software Citation Implementation Working Group, we describe the best practices for software repositories and registries which include defining the scope, policies, and governing rules, along with the background, examples, and collaborative work that went into their development.
 - authors: Goeva, A., Stoudt, S., &amp; Trisovic, A. 
@@ -33,7 +33,7 @@
   image: images/logo-hdsr.jpg
 - authors: Chen, X., Dallmeier-Tiessen, S., Dasler, R., Feger, S., Fokianos, P., Gonzalez, J. B., Hirvonsalo, H., Kousidis, D., Lavasa, A., Mele, S., Rodriguez, D. R., Šimko, T., Smith, T., Trisovic, A., Trzcinska, A., Tsanaktsidis, I., Zimmermann, M., Cranmer, K., Heinrich, L., Watts, G., Hildreth, M., Lloret Iglesias, L., Lassila-Perini, K., & Neubert, S.
   year: 2019
-  name: Open is not enough.
+  name: Open is Not Enough
   venue: Nature Physics
   image: images/logo-naphy.jpg
   description: The platforms CERN Analysis Preservation and Reusable Analyses (REANA) are created to facilitate reproducible research for the LHC experiments at CERN. The project, CERN Open Data, disseminates particle-physics data that can be used for research.
