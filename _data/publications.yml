@@ -4,6 +4,7 @@
   venue: Submitted for peer-review
 - authors: J. A. Rising, A. Hussain, K. Schwarzwald, A. Trisovic
   year: 2024
+  note: (α-β)
   name: 'A Practical Guide to Climate Econometrics: Navigating Key Decision Point in Weather and Climate Data Analysis' 
   venue: Journal of Open Source Education (JOSE)
   description: We present a free and open-source tutorial on the practical aspects of climate econometrics, which includes data collection, analysis design, and result presentation (available at climateestimate.net).
@@ -53,6 +54,7 @@
   description: This paper presents a large-scale study of the quality, programming literacy, and reproducibility of over 2100 datasets that contain research code in R from the Harvard Dataverse data repository.
 - authors: S. Soiland-Reyes, P. Sefton, M. Crosas, L. J. Castro, F. Coppens, J. M. Fernández, D. Garijo, B. Grüning, M. La Rosa, S. Leo, E. Ó Carragáin, M. Portier, A. Trisovic, RO-Crate Community, P. Groth, C. Goble
   venue: Data Science
+  note: (α-β)
   year: 2021
   name: Packaging Research Artefacts with RO-Crate
   url: https://content.iospress.com/articles/data-science/ds210053
