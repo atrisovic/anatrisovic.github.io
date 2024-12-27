@@ -1,139 +1,139 @@
-- authors: Hu, J. K.*, Trisovic, A.*, Bakshi, A., Braun, D., Dominici, F., & Casey, J. A.
+- authors: J. K. Hu*, A. Trisovic*, A. Bakshi, D. Braun, F. Dominici, J. A. Casey
   year: 2024
   name: Co-exposure to Extreme Heat, Wildfire Burn Zones, and Wildfire Smoke in the Western US from 2006 to 2020 
   venue: Submitted for peer-review
-- authors: Rising, J. A., Hussain, A., Schwarzwald, K., &amp; Trisovic, A. 
+- authors: J. A. Rising, A. Hussain, K. Schwarzwald, A. Trisovic
   year: 2024
   name: 'A Practical Guide to Climate Econometrics: Navigating Key Decision Point in Weather and Climate Data Analysis' 
   venue: Journal of Open Source Education (JOSE)
   description: We present a free and open-source tutorial on the practical aspects of climate econometrics, which includes data collection, analysis design, and result presentation (available at climateestimate.net).
   url: https://jose.theoj.org/papers/10.21105/jose.00090
-- authors: Tec M., Trisovic A., Audirac M., Woodward S., Hu J. K., Khoshnevis N., and Dominici F.
+- authors: M. Tec, A. Trisovic, M. Audirac, S. Woodward, J. K. Hu, N. Khoshnevis, F. Dominici
   venue: The 12th International Conference on Learning Representations (ICLR)
   year: 2024
   image: images/logo-iclr.jpg
   name: 'SpaCE: The Spatial Confounding Environment'
   description: We introduce SpaCE - The Spatial Confounding Environment, the first toolkit to provide realistic benchmark datasets and tools for systematically evaluating causal inference methods designed to alleviate spatial confounding.
   url: "https://arxiv.org/abs/2312.00710"
-- authors: Tec M., Trisovic A., Audirac M., and Dominici F
+- authors: M. Tec, A. Trisovic, M. Audirac, F. Dominici
   venue: Causal Learning and Reasoning (CLeaR)
   year: 2023
   name: SpaCE The Spatial Confounding (Benchmarking) Environment
   description: The article introduces SpaCE datasets as a benchmarking tool to assist in developing novel methods to address outstanding challenges in spatial and network causal inference.
   url: ""
-- authors: Lee W., Wu X., Heo S., Kim J. M., Fong K. C., Son J., Sabath M. B., Trisovic A., Braun D., Park J. Y., Kim Y. C., Lee J. P., Schwartz J., Kim H., Dominici F., Al-Aly Z., and Bell M. L.
+- authors: W. Lee, X. Wu, S. Heo, J. M. Kim, K. C. Fong, J. Son, M. B. Sabath, A. Trisovic, D. Braun, J. Y. Park, Y. C. Kim, J. P. Lee, J. Schwartz, H. Kim, F. Dominici, Z. Al-Aly, M. L. Bell
   venue: Environmental Health Perspectives
   year: 2023
   name: 'Air Pollution and Acute Kidney Injury in the US Medicare Population: A Longitudinal Cohort Study'
   description: The article investigates the association between short-term exposure to air pollution and acute kidney injury (AKI) in the US Medicare population.
   url: ""
-- authors: Bouquin D., Trisovic A., Bertuch O., Colón-Marrero E.
+- authors: D. Bouquin, A. Trisovic, O. Bertuch, E. Colón-Marrero
   venue: Software Citation Workshop 2022 (ArXiv)
   year: 2023
   name: Advancing Software Citation Implementation
   description: Software's pivotal role in progress is not mirrored in traditional acknowledgments. This report from captures insights from 51 global experts on unresolved software citation issues. It aims to pinpoint and tackle these challenges, benefiting the GLAM community, repository managers, software developers, and publishers.
   url: https://arxiv.org/abs/2302.07500
-- authors: Garijo D., Ménager H., Hwang L., Trisovic A., Hucka M., Morrell T., Allen A., Task Force on Best Practices for Software Registries, SciCodes Consortium. 
+- authors: D. Garijo, H. Ménager, L. Hwang, A. Trisovic, M. Hucka, T. Morrell, A. Allen, Task Force on Best Practices for Software Registries, SciCodes Consortium
   venue: PeerJ Computer Science
   year: 2022
   name: Nine Best Practices for Research Software Registries and Repositories
   url: https://peerj.com/articles/cs-1023/?utm_source=Social&utm_medium=Twitter&utm_campaign=cs-1023
   description: As the FORCE11 Software Citation Implementation Working Group, we describe the best practices for software repositories and registries which include defining the scope, policies, and governing rules, along with the background, examples, and collaborative work that went into their development.
-- authors: Trisovic A.
+- authors: A. Trisovic
   year: 2023
   name: 'Cluster Analysis of Open Research Data: A Case for Replication Metadata'
   venue: International Journal of Digital Curation
   url: ""
   description: The article presents a cluster analysis of 1,000+ open research datasets from the Harvard Dataverse repository to identify the most common replication metadata elements.
-- authors: Trisovic A., Pasquier T., Lau M. K., and Crosas M.
+- authors: A. Trisovic, T. Pasquier, M. K. Lau, M. Crosas
   venue: Nature Scientific Data
   year: 2022
   name: A Large-Scale Study on Research Code Quality and Execution
   url: https://www.nature.com/articles/s41597-022-01143-6
   description: This paper presents a large-scale study of the quality, programming literacy, and reproducibility of over 2100 datasets that contain research code in R from the Harvard Dataverse data repository.
-- authors: Soiland-Reyes S., Sefton P., Crosas M., Castro L. J., Coppens F., Fernández J. M., Garijo D., Grüning B., La Rosa M., Leo S., Ó Carragáin E., Portier M., Trisovic A., RO-Crate Community, Groth P., and Goble C.
+- authors: S. Soiland-Reyes, P. Sefton, M. Crosas, L. J. Castro, F. Coppens, J. M. Fernández, D. Garijo, B. Grüning, M. La Rosa, S. Leo, E. Ó Carragáin, M. Portier, A. Trisovic, RO-Crate Community, P. Groth, C. Goble
   venue: Data Science
   year: 2021
   name: Packaging Research Artefacts with RO-Crate
   url: https://content.iospress.com/articles/data-science/ds210053
   description: We introduce RO-Crate, an open, community-driven, lightweight approach to packaging research artifacts with metadata, including their identifiers, provenance, relations, and annotations.
-- authors: Miljković, N., Trisovic, A., &amp; Peer, L. 
+- authors: N. Miljković, A. Trisovic, L. Peer
   year: 2021
   name: Towards FAIR Principles for Open Hardware
   venue: Conference on Application of Free Software and Open Hardware (PSSOH)
   description: We elaborate on open hardware dissemination and reuse complexity, present examples of unique demands, and propose leveraging FAIR principles to make it findable, accessible, interoperable, and reusable.
-- authors: Blumenthal, K., Goeva, A., Stoudt, S., Trisovic, A., & Trisovic, P. 
+- authors: K. Blumenthal, A. Goeva, S. Stoudt, A. Trisovic, P. Trisovic
   year: 2021
   note: (α-β)
   name: Why Do We Plot Data?
   venue: Harvard Data Science Review
   description: Explainer Zine for the article "Designing for interactive exploratory data analysis requires theory of graphical inference."
-- authors: Goeva, A., Jones, P., Stoudt, S., &amp; Trisovic, A.
+- authors: A. Goeva, P. Jones, S. Stoudt, A. Trisovic
   note: (α-β)
   year: 2021
   name: Recipes for Connector Courses From the Early-Career Board Kitchen
   venue: Harvard Data Science Review
   description: We propose a handful of connector courses for data science, inspired by the article "Interleaving Computational and Inferential Thinking- Data Science for Undergraduates at Berkeley."
-- authors: Trisovic, A., Mika, K., Boyd, C., Feger, S., &amp; Crosas, M.
+- authors: A. Trisovic, K. Mika, C. Boyd, S. Feger, M. Crosas
   year: 2021
   name: Repository Approaches to Improving the Quality of Shared Data and Code
   venue: Data
   description: We propose three approaches based on computational reproducibility, data curation, and gamified design elements that can be used to indicate and improve the quality of shared data and code in data repositories.
-- authors: Frost, S., Goeva, A., Pombra, J., Seaton, W., Stoudt, S., Trisovic, A., Wang, C., &amp; Zucker, C. 
+- authors: S. Frost, A. Goeva, J. Pombra, W. Seaton, S. Stoudt, A. Trisovic, C. Wang, C. Zucker
   year: 2021
   note: (α-β)
   name: Kaleidoscopic Perspectives on Practicum-Based Data Science Education
   venue: Harvard Data Science Review
   description: Early-Career Board members of the Harvard Data Science Review discuss the acquisition of practical data science skills and share their experiences from a number of disciplines.
-- authors: Goeva, A., Stoudt, S., &amp; Trisovic, A. 
+- authors: A. Goeva, S. Stoudt, A. Trisovic
   year: 2020
   note: (α-β)
   name: 'Toward Reproducible and Extensible Research: From Values to Action'
   venue: Harvard Data Science Review
   description: This paper discusses the National Academies' report "Reproducibility and Replicability in Science," advocating for reusability and the need for actionable and hierarchical steps for researchers.
-- authors: Frost, S., Goeva, A., Seaton, W., Stoudt, S., &amp; Trisovic, A. 
+- authors: S. Frost, A. Goeva, W. Seaton, S. Stoudt, A. Trisovic
   year: 2020
   note: (α-β)
   name: 'Early-Career View on Data Science Challenges: Responsibility, Rigor, and Accessibility'
   venue: Harvard Data Science Review
   description: Early-Career Board members of the Harvard Data Science Review present their view of top research challenge areas in data science.
-- authors: Trisovic, A., Durbin, P., Schlatter, T., Durand, G., Barbosa, S., Brooke, D., & Crosas, M.
+- authors: A. Trisovic, P. Durbin, T. Schlatter, G. Durand, S. Barbosa, D. Brooke, M. Crosas
   year: 2020
   name: Advancing Computational Reproducibility in the Dataverse Data Repository Platform.
   venue: 3rd International Workshop on Practical Reproducible Evaluation of Computer Systems (P-RECS)
   description: The Dataverse repository software has undertaken integrations with the platforms Code Ocean, Whole Tale, Renku, and Jupyter Binder, which will help capture research code dependencies and advance reproducibility.
-- authors: Woodard, A. E., Trisovic, A., Li, Z., Babuji, Y., Chard, R., Skluzacek, T., Blaiszik, B., Katz, D. S., Foster, I., & Chard, K.
+- authors: A. E. Woodard, A. Trisovic, Z. Li, Y. Babuji, R. Chard, T. Skluzacek, B. Blaiszik, D. S. Katz, I. Foster, K. Chard
   year: 2020
   name: Real-Time HEP Analysis With FuncX – a High-Performance Platform for Function as a Service.
   venue: 24th International Conference on Computing in High Energy & Nuclear Physics (CHEP)
   description: We present how the function-as-a-service paradigm can address CERN's computing challenges with efficient and scalable experimental data processing on heterogeneous resources.
-- authors: Trisovic, A., Jones, C. R., Couturier, B., & Clemencic, M.
+- authors: A. Trisovic, C. R. Jones, B. Couturier, M. Clemencic
   year: 2020
   name: Provenance Tracking in the LHCb Software.
   venue: Computing in Science & Engineering (CISE)
   description: We argue that reproducibility needs to be incorporated into the existing infrastructure and present a new functionality in the CERN software that captures all information within a resulting dataset necessary to reproduce it.
-- authors: Chen, X., Dallmeier-Tiessen, S., Dasler, R., Feger, S., Fokianos, P., Gonzalez, J. B., Hirvonsalo, H., Kousidis, D., Lavasa, A., Mele, S., Rodriguez, D. R., Šimko, T., Smith, T., Trisovic, A., Trzcinska, A., Tsanaktsidis, I., Zimmermann, M., Cranmer, K., Heinrich, L., Watts, G., Hildreth, M., Lloret Iglesias, L., Lassila-Perini, K., & Neubert, S.
+- authors: X. Chen, S. Dallmeier-Tiessen, R. Dasler, S. Feger, P. Fokianos, J. B. Gonzalez, H. Hirvonsalo, D. Kousidis, A. Lavasa, S. Mele, D. R. Rodriguez, T. Šimko, T. Smith, A. Trisovic, A. Trzcinska, I. Tsanaktsidis, M. Zimmermann, K. Cranmer, L. Heinrich, G. Watts, M. Hildreth, L. Lloret Iglesias, K. Lassila-Perini, S. Neubert
   year: 2019
   note: (α-β)
   name: Open is Not Enough.
   venue: Nature Physics
   description: The platforms CERN Analysis Preservation and Reusable Analyses (REANA) are created to facilitate reproducible research for the LHC experiments at CERN. The project, CERN Open Data, disseminates particle-physics data that can be used for research.
-- authors: Trisovic, A.
+- authors: A. Trisovic
   year: 2018
   name: Graph Mining at the High-Energy Physics Experiment LHCb.
   venue: 7th International Symposium on Industrial Engineering
   description: The paper presents a number of challenges, questions, and use-cases that can be addressed by exploring and analyzing the LHCb graph database that captures its data and software.
-- authors: Trisovic, A., Couturier, B., Gibson, V., & Jones, C.
+- authors: A. Trisovic, B. Couturier, V. Gibson, C. Jones
   year: 2017
   name: Recording the LHCb Data and Software Dependencies.
   venue: 22th International Conference on Computing in High Energy and Nuclear Physics (CHEP)
   description: We present the design and development of the LHCb graph database that captures the scientific software stack, its software and hardware dependencies, and its products, which are simulation and experimental data.
-- authors: Pasquier, T., Lau, M. K., Trisovic, A., Boose, E. R., Couturier, B., Crosas, M., Ellison, A. M., Gibson, V., Jones, C. R., & Seltzer, M.
+- authors: T. Pasquier, M. K. Lau, A. Trisovic, E. R. Boose, B. Couturier, M. Crosas, A. M. Ellison, V. Gibson, C. R. Jones, M. Seltzer
   year: 2017
   name: If These Data Could Talk.
   venue: Nature Scientific Data
   description: The lack of formalism hinders reporting in computational research, which hinders reproducibility. Data provenance can aid in this problem, as showcased in two use-cases- physics (CERN) and ecology (Harvard Forest).
-- authors: Trisovic, A.
+- authors: A. Trisovic
   year: 2016
   name: Measuring the D0 Lifetime at the LHCb Masterclass.
   venue: 37th International Conference on High Energy Physics (ICHEP)

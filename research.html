@@ -21,7 +21,7 @@ banner: images/jpg3.jpg
         {% for publication in site.data.publications %}
         <h3><a href="{{ publication.url }}">{{ publication.name }}</a></h3>
         <p> {{ publication.note }} {{ publication.authors }}
-            <br>{{ publication.venue }}, {{ publication.year }}
+            <br><strong>{{ publication.venue }}</strong>, {{ publication.year }}
         <details>
             <summary>Description</summary>
             <blockquote>

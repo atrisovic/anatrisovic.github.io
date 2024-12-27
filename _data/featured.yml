@@ -1,39 +1,41 @@
-- authors: Tec M., Trisovic A., Audirac M., Woodward S., Khoshnevis N., and Dominici F.
+- authors: M. Tec, A. Trisovic, M. Audirac, S. Woodward, J. K. Hu, N. Khoshnevis, F. Dominici
   venue: The 12th International Conference on Learning Representations (ICLR)
   year: 2024
   image: images/logo-iclr.jpg
   name: 'SpaCE: The Spatial Confounding Environment'
   description: We introduce SpaCE - The Spatial Confounding Environment, the first toolkit to provide realistic benchmark datasets and tools for systematically evaluating causal inference methods designed to alleviate spatial confounding.
   url: "https://nsaph-projects.github.io/space/"
-- authors: Lee W., Wu X., Heo S., Kim J. M., Fong K. C., Son J., Sabath M. B., Trisovic A., Braun D., Park J. Y., Kim Y. C., Lee J. P., Schwartz J., Kim H., Dominici F., Al-Aly Z., and Bell M. L.
+- authors: W. Lee, X. Wu, S. Heo, J. M. Kim, K. C. Fong, J. Son, M. B. Sabath, A. Trisovic, D. Braun, J. Y. Park, Y. C. Kim, J. P. Lee, J. Schwartz, H. Kim, F. Dominici, Z. Al-Aly, M. L. Bell
   venue: Environmental Health Perspectives
   year: 2023
   image: images/logo-ehp2.jpg
   name: 'Air Pollution and Acute Kidney Injury in the US Medicare Population: A Longitudinal Cohort Study'
   description: The article investigates the association between short-term exposure to air pollution and acute kidney injury (AKI) in the US Medicare population.
   url: "https://pubmed.ncbi.nlm.nih.gov/37036790/"
-- authors: Trisovic A., Pasquier T., Lau M. K., and Crosas M.
+- authors: A. Trisovic, T. Pasquier, M. K. Lau, M. Crosas
   venue: Nature Scientific Data
   year: 2022
   image: images/logo-sci-dat.jpg
   name: A Large-Scale Study on Research Code Quality and Execution
   url: https://www.nature.com/articles/s41597-022-01143-6
-- authors: Garijo D., Ménager H., Hwang L., Trisovic A., Hucka M., Morrell T., Allen A., Task Force on Best Practices for Software Registries, SciCodes Consortium. 
+- authors: D. Garijo, H. Ménager, L. Hwang, A. Trisovic, M. Hucka, T. Morrell, A. Allen, Task Force on Best Practices for Software Registries, SciCodes Consortium
   venue: PeerJ Computer Science
   year: 2022
   image: images/logo-peer-j.jpg
   name: Nine Best Practices for Research Software Registries and Repositories
   url: https://peerj.com/articles/cs-1023/?utm_source=Social&utm_medium=Twitter&utm_campaign=cs-1023
   description: As the FORCE11 Software Citation Implementation Working Group, we describe the best practices for software repositories and registries which include defining the scope, policies, and governing rules, along with the background, examples, and collaborative work that went into their development.
-- authors: Goeva, A., Stoudt, S., &amp; Trisovic, A. 
+- authors: A. Goeva, S. Stoudt, A. Trisovic
   year: 2020
+  note: (α-β)
   name: 'Toward Reproducible and Extensible Research: From Values to Action'
   venue: Harvard Data Science Review
   url: https://hdsr.mitpress.mit.edu/pub/lm3txy12/release/2
   image: images/logo-hdsr.jpg
-- authors: Chen, X., Dallmeier-Tiessen, S., Dasler, R., Feger, S., Fokianos, P., Gonzalez, J. B., Hirvonsalo, H., Kousidis, D., Lavasa, A., Mele, S., Rodriguez, D. R., Šimko, T., Smith, T., Trisovic, A., Trzcinska, A., Tsanaktsidis, I., Zimmermann, M., Cranmer, K., Heinrich, L., Watts, G., Hildreth, M., Lloret Iglesias, L., Lassila-Perini, K., & Neubert, S.
+- authors: X. Chen, S. Dallmeier-Tiessen, R. Dasler, S. Feger, P. Fokianos, J. B. Gonzalez, H. Hirvonsalo, D. Kousidis, A. Lavasa, S. Mele, D. R. Rodriguez, T. Šimko, T. Smith, A. Trisovic, A. Trzcinska, I. Tsanaktsidis, M. Zimmermann, K. Cranmer, L. Heinrich, G. Watts, M. Hildreth, L. Lloret Iglesias, K. Lassila-Perini, S. Neubert
   year: 2019
   name: Open is Not Enough
   venue: Nature Physics
+  note: (α-β)
   image: images/logo-naphy.jpg
   description: The platforms CERN Analysis Preservation and Reusable Analyses (REANA) are created to facilitate reproducible research for the LHC experiments at CERN. The project, CERN Open Data, disseminates particle-physics data that can be used for research.
