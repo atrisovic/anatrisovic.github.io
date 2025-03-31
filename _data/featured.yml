@@ -1,3 +1,8 @@
+- authors: J. K. Hu*, A. Trisovic*, A. Bakshi, D. Braun, F. Dominici, J. A. Casey
+  year: 2025
+  image: images/logo-sa.png
+  name: Co-exposure to Extreme Heat, Wildfire Burn Zones, and Wildfire Smoke in the Western US from 2006 to 2020 
+  venue: Accepted in Science Advances
 - authors: M. Tec, A. Trisovic, M. Audirac, S. Woodward, J. K. Hu, N. Khoshnevis, F. Dominici
   venue: The 12th International Conference on Learning Representations (ICLR)
   year: 2024
@@ -5,13 +10,13 @@
   name: 'SpaCE: The Spatial Confounding Environment'
   description: We introduce SpaCE - The Spatial Confounding Environment, the first toolkit to provide realistic benchmark datasets and tools for systematically evaluating causal inference methods designed to alleviate spatial confounding.
   url: "https://nsaph-projects.github.io/space/"
-- authors: W. Lee, X. Wu, S. Heo, J. M. Kim, K. C. Fong, J. Son, M. B. Sabath, A. Trisovic, D. Braun, J. Y. Park, Y. C. Kim, J. P. Lee, J. Schwartz, H. Kim, F. Dominici, Z. Al-Aly, M. L. Bell
-  venue: Environmental Health Perspectives
-  year: 2023
-  image: images/logo-ehp2.jpg
-  name: 'Air Pollution and Acute Kidney Injury in the US Medicare Population: A Longitudinal Cohort Study'
-  description: The article investigates the association between short-term exposure to air pollution and acute kidney injury (AKI) in the US Medicare population.
-  url: "https://pubmed.ncbi.nlm.nih.gov/37036790/"
+# - authors: W. Lee, X. Wu, S. Heo, J. M. Kim, K. C. Fong, J. Son, M. B. Sabath, A. Trisovic, D. Braun, J. Y. Park, Y. C. Kim, J. P. Lee, J. Schwartz, H. Kim, F. Dominici, Z. Al-Aly, M. L. Bell
+#   venue: Environmental Health Perspectives
+#   year: 2023
+#   image: images/logo-ehp2.jpg
+#   name: 'Air Pollution and Acute Kidney Injury in the US Medicare Population: A Longitudinal Cohort Study'
+#   description: The article investigates the association between short-term exposure to air pollution and acute kidney injury (AKI) in the US Medicare population.
+#   url: "https://pubmed.ncbi.nlm.nih.gov/37036790/"
 - authors: A. Trisovic, T. Pasquier, M. K. Lau, M. Crosas
   venue: Nature Scientific Data
   year: 2022
