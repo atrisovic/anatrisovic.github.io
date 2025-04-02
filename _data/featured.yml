@@ -9,7 +9,7 @@
   image: images/logo-iclr.jpg
   name: 'SpaCE: The Spatial Confounding Environment'
   description: We introduce SpaCE - The Spatial Confounding Environment, the first toolkit to provide realistic benchmark datasets and tools for systematically evaluating causal inference methods designed to alleviate spatial confounding.
-  url: "https://nsaph-projects.github.io/space/"
+  url: "https://arxiv.org/abs/2312.00710"
 # - authors: W. Lee, X. Wu, S. Heo, J. M. Kim, K. C. Fong, J. Son, M. B. Sabath, A. Trisovic, D. Braun, J. Y. Park, Y. C. Kim, J. P. Lee, J. Schwartz, H. Kim, F. Dominici, Z. Al-Aly, M. L. Bell
 #   venue: Environmental Health Perspectives
 #   year: 2023
