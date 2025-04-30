@@ -16,7 +16,7 @@
   image: images/logo-iclr.jpg
   name: 'SpaCE: The Spatial Confounding Environment'
   description: We introduce SpaCE - The Spatial Confounding Environment, the first toolkit to provide realistic benchmark datasets and tools for systematically evaluating causal inference methods designed to alleviate spatial confounding.
-  url: "https://arxiv.org/abs/2312.00710"
+  url: https://openreview.net/pdf?id=D9rJdtmIG6
 - authors: M. Tec, A. Trisovic, M. Audirac, F. Dominici
   venue: Causal Learning and Reasoning (CLeaR)
   year: 2023
@@ -28,7 +28,7 @@
   year: 2023
   name: 'Air Pollution and Acute Kidney Injury in the US Medicare Population: A Longitudinal Cohort Study'
   description: The article investigates the association between short-term exposure to air pollution and acute kidney injury (AKI) in the US Medicare population.
-  url: ""
+  url: "https://pubmed.ncbi.nlm.nih.gov/37036790/"
 - authors: D. Bouquin, A. Trisovic, O. Bertuch, E. Colón-Marrero
   venue: Software Citation Workshop 2022 (ArXiv)
   year: 2023
