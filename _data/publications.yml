@@ -2,15 +2,18 @@
   year: 2025
   name: "LLMs in Citation Intent Classification: Progress, Precision, and Reproducibility Challenges"
   venue: ACM Conference on Reproducibility and Replicability (ACM REP)
+  description: We investigate the use of LLMs for multi-class citation intent classification, highlighting striking inter-model disagreement among state-of-the-art systems and revealing key challenges in the robustness, transparency, and reproducibility of LLM-based research.
 - authors: J. K. Hu*, A. Trisovic*, A. Bakshi, D. Braun, F. Dominici, J. A. Casey
   year: 2025
   name: Co-exposure to Extreme Heat, Wildfire Burn Zones, and Wildfire Smoke in the Western US from 2006 to 2020 
   venue: Science Advances
+  description: We analyze 15 years of daily census tract–level data to quantify coexposure to extreme heat, wildfire burn zones, and smoke across 11 Western U.S. states. Coexposures—especially between heat and smoke—increased over time and disproportionately affected vulnerable and Indigenous populations.
   url: https://www.science.org/doi/10.1126/sciadv.adq6453
 - authors: A. Trisovic, G. Miller, D. Bertsimas, and J. K. Hu.
   year: 2025
   name: Predicting concurrence of heatwaves, droughts, and wildfires with spatiotemporal deep learning
   venue: Tackling Climate Change with Machine Learning at ICLR, 2025
+  description: We introduce a framework to identify a state-of-the-art multi-task model for jointly predicting heatwaves, droughts, and wildfires, capturing shared risk factors across these climate extremes. 
   url: https://s3.us-east-1.amazonaws.com/climate-change-ai/papers/iclr2025/71/paper.pdf
 - authors: J. A. Rising, A. Hussain, K. Schwarzwald, A. Trisovic
   year: 2024
