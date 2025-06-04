@@ -7,6 +7,11 @@
   name: Co-exposure to Extreme Heat, Wildfire Burn Zones, and Wildfire Smoke in the Western US from 2006 to 2020 
   venue: Science Advances
   url: https://www.science.org/doi/10.1126/sciadv.adq6453
+- authors: A. Trisovic, G. Miller, D. Bertsimas, and J. K. Hu.
+  year: 2025
+  name: Predicting concurrence of heatwaves, droughts, and wildfires with spatiotemporal deep learning
+  venue: Tackling Climate Change with Machine Learning at ICLR, 2025
+  url: https://s3.us-east-1.amazonaws.com/climate-change-ai/papers/iclr2025/71/paper.pdf
 - authors: J. A. Rising, A. Hussain, K. Schwarzwald, A. Trisovic
   year: 2024
   note: (α-β)
