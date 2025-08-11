@@ -1,3 +1,12 @@
+- link: "https://www.bsc.es/research-and-development/research-seminars/sors-the-ai-frontier-transformative-role-foundation-models-across-scientific-disciplines"
+  title: "The AI Frontier: Transformative Role of Foundation Models Across Scientific Disciplines"
+  description: at Barcelona Supercomputing Center (BSC) on July 16th, 2025
+- link: "https://ictisusa.com"
+  title: "The Transformative Role of AI in Science: Scaling Up, De-democratization, and the Vital Role of Open Source (keynote)"
+  description: at the 10th International Conference on Information and Communication Technology for Intelligent Systems on May 23, 2025
+- link: "https://orc.mit.edu/calendar_event/orc-iap-seminar-2025/"
+  title: "Analysis of Co-Exposure to Extreme Heat, Wildfire Burn Zones, and Wildfire Smoke in the Western US"
+  description: at IAP Seminar, MIT Operations Research Center (ORC) on January 27, 2025
 - link: "https://openforumeurope.org"
   title: "The AI Revolution in Science: Scaling Up, De-democratization, and the Vital Role of Open Source"
   description: at OpenForum Academy Symposium on November 14, 2024
@@ -51,7 +60,9 @@
 - link: "docs/slides/202010_FAIRness_with_containers_SORSE.pdf"
   title: "Improving FAIRness with containers"
   description: "at SORSE - Series of Online Research Software Events"
-
+- link: https://events.ecmwf.int/event/116/timetable/
+  title: "Responding to Reproducibility Challenges from Physics to Social Sciences (keynote)"
+  description: "at European Centre for Medium-Range Weather Forecasts (ECMWF) on October 14, 2019"
 - link: "docs/slides/201806_The_Last_Presentation_LBC.pdf"
   title: "The Last Presentation"
   description: "at LHCb Computing"

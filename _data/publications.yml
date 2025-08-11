@@ -1,15 +1,20 @@
-- authors: A. Fogelson, A. Trisovic, N. Thompson
+- authors: J. Sivaloganathan, A. Trišović, N. Thompson
+  year: 2025
+  name: "Mapping the Impact of Foundation Models on the UN Sustainable Development Goals"
+  venue: 21st IEEE International Conference on e-Science (eScience 2025)
+  description: We analyze scientific publications using Foundation Models to assess their alignment with the UN Sustainable Development Goals, revealing a concentration of work on a few goals and large gaps in others. 
+- authors: A. Fogelson, A. Trišović, N. Thompson
   year: 2025
   name: "LLMs in Citation Intent Classification: Progress, Precision, and Reproducibility Challenges"
   venue: ACM Conference on Reproducibility and Replicability (ACM REP)
   description: We investigate the use of LLMs for multi-class citation intent classification, highlighting striking inter-model disagreement among state-of-the-art systems and revealing key challenges in the robustness, transparency, and reproducibility of LLM-based research.
-- authors: J. K. Hu*, A. Trisovic*, A. Bakshi, D. Braun, F. Dominici, J. A. Casey
+- authors: J. K. Hu*, A. Trišović*, A. Bakshi, D. Braun, F. Dominici, J. A. Casey
   year: 2025
   name: Co-exposure to Extreme Heat, Wildfire Burn Zones, and Wildfire Smoke in the Western US from 2006 to 2020 
   venue: Science Advances
   description: We analyze 15 years of daily census tract–level data to quantify coexposure to extreme heat, wildfire burn zones, and smoke across 11 Western U.S. states. Coexposures—especially between heat and smoke—increased over time and disproportionately affected vulnerable and Indigenous populations.
   url: https://www.science.org/doi/10.1126/sciadv.adq6453
-- authors: A. Trisovic, G. Miller, D. Bertsimas, and J. K. Hu.
+- authors: A. Trišović, G. Miller, D. Bertsimas, and J. K. Hu
   year: 2025
   name: Predicting concurrence of heatwaves, droughts, and wildfires with spatiotemporal deep learning
   venue: Tackling Climate Change with Machine Learning at ICLR, 2025
@@ -18,7 +23,7 @@
 - authors: J. A. Rising, A. Hussain, K. Schwarzwald, A. Trisovic
   year: 2024
   note: (α-β)
-  name: 'A Practical Guide to Climate Econometrics: Navigating Key Decision Point in Weather and Climate Data Analysis' 
+  name: 'A Practical Guide to Climate Econometrics: Navigating Key Decision Points in Weather and Climate Data Analysis' 
   venue: Journal of Open Source Education (JOSE)
   description: We present a free and open-source tutorial on the practical aspects of climate econometrics, which includes data collection, analysis design, and result presentation (available at climateestimate.net).
   url: https://jose.theoj.org/papers/10.21105/jose.00090
