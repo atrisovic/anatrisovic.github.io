@@ -14,11 +14,14 @@
   type: project
   name: Harvard Data Commons
   url: https://sites.harvard.edu/harvard-data-commons/about/
-- id: 6
+- id: 
+  - 6
+  - 7
   type: project
   name: "CLIR Webinar: Toward Open, Reproducible and Reusable Research"
   url: https://atrisovic.github.io/clir-webinar/
-- id: 7
+- id: 
+  - 7
   type: software
   name: GitHub Action for uploading files on Dataverse
   url: https://github.com/marketplace/actions/dataverse-uploader-action
@@ -38,11 +41,21 @@
   url: https://github.com/NSAPH-Projects/space
 - id: 
   - 4
-  - 3
-  - 1
   type: dataset
   name: Co-exposure of extreme heat, wildfire and wildfire smoke dataset
   url: https://doi.org/10.7910/DVN/9VDUAP
+- id: 
+  - 6
+  - 7
+  type: dataset
+  url: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/UZLXSZ
+  name: "Replication Data for: A large-scale study on research code quality and execution"
+- id: 
+  - 6
+  - 7
+  type: dataset
+  url: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/EA3LC5
+  name: "Replication Data for: Repository approaches to improving quality of shared data and code"
 - id: 4
   type: software
   name: "Climate Toolbox: Python package for climate data wrangling"
@@ -55,6 +68,12 @@
   type: project
   name: LHCb experiment
   url: http://lhcb.web.cern.ch/lhcb/
+- id:
+  - 4
+  - 10
+  type: project
+  url: https://climateestimate.net/content/getting-started.html
+  name: "Practical Guide to Climate Econometrics"
 - id: 
   - 8
   - 7
