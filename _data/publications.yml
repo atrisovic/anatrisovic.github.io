@@ -1,27 +1,42 @@
 - authors: J. Sivaloganathan, A. Trišović, N. Thompson
   year: 2025
+  id: 
+  - 1
+  - 6
   name: "Mapping the Impact of Foundation Models on the UN Sustainable Development Goals"
   venue: 21st IEEE International Conference on e-Science (eScience 2025)
   description: We analyze scientific publications using Foundation Models to assess their alignment with the UN Sustainable Development Goals, revealing a concentration of work on a few goals and large gaps in others. 
 - authors: A. Fogelson, A. Trišović, N. Thompson
   year: 2025
+  id: 
+  - 6
+  - 3
   name: "LLMs in Citation Intent Classification: Progress, Precision, and Reproducibility Challenges"
   venue: ACM Conference on Reproducibility and Replicability (ACM REP)
   description: We investigate the use of LLMs for multi-class citation intent classification, highlighting striking inter-model disagreement among state-of-the-art systems and revealing key challenges in the robustness, transparency, and reproducibility of LLM-based research.
 - authors: J. K. Hu*, A. Trišović*, A. Bakshi, D. Braun, F. Dominici, J. A. Casey
   year: 2025
+  id: 
+  - 4
+  - 9
   name: Co-exposure to Extreme Heat, Wildfire Burn Zones, and Wildfire Smoke in the Western US from 2006 to 2020 
   venue: Science Advances
   description: We analyze 15 years of daily census tract–level data to quantify coexposure to extreme heat, wildfire burn zones, and smoke across 11 Western U.S. states. Coexposures—especially between heat and smoke—increased over time and disproportionately affected vulnerable and Indigenous populations.
   url: https://www.science.org/doi/10.1126/sciadv.adq6453
 - authors: A. Trišović, G. Miller, D. Bertsimas, and J. K. Hu
   year: 2025
+  id: 
+  - 3
+  - 4
   name: Predicting concurrence of heatwaves, droughts, and wildfires with spatiotemporal deep learning
   venue: Tackling Climate Change with Machine Learning at ICLR, 2025
   description: We introduce a framework to identify a state-of-the-art multi-task model for jointly predicting heatwaves, droughts, and wildfires, capturing shared risk factors across these climate extremes. 
   url: https://s3.us-east-1.amazonaws.com/climate-change-ai/papers/iclr2025/71/paper.pdf
 - authors: J. A. Rising, A. Hussain, K. Schwarzwald, A. Trisovic
   year: 2024
+  id: 
+  - 4
+  - 10
   note: (α-β)
   name: 'A Practical Guide to Climate Econometrics: Navigating Key Decision Points in Weather and Climate Data Analysis' 
   venue: Journal of Open Source Education (JOSE)
@@ -30,6 +45,10 @@
 - authors: M. Tec, A. Trisovic, M. Audirac, S. Woodward, J. K. Hu, N. Khoshnevis, F. Dominici
   venue: The 12th International Conference on Learning Representations (ICLR)
   year: 2024
+  id: 
+  - 4
+  - 9
+  - 3
   image: images/logo-iclr.jpg
   name: 'SpaCE: The Spatial Confounding Environment'
   description: We introduce SpaCE - The Spatial Confounding Environment, the first toolkit to provide realistic benchmark datasets and tools for systematically evaluating causal inference methods designed to alleviate spatial confounding.
@@ -37,29 +56,43 @@
 - authors: M. Tec, A. Trisovic, M. Audirac, F. Dominici
   venue: Causal Learning and Reasoning (CLeaR)
   year: 2023
+  id: 
+  - 4
+  - 9
+  - 3
   name: SpaCE The Spatial Confounding (Benchmarking) Environment
   description: The article introduces SpaCE datasets as a benchmarking tool to assist in developing novel methods to address outstanding challenges in spatial and network causal inference.
   url: ""
 - authors: W. Lee, X. Wu, S. Heo, J. M. Kim, K. C. Fong, J. Son, M. B. Sabath, A. Trisovic, D. Braun, J. Y. Park, Y. C. Kim, J. P. Lee, J. Schwartz, H. Kim, F. Dominici, Z. Al-Aly, M. L. Bell
   venue: Environmental Health Perspectives
   year: 2023
+  id: 
+  - 4
+  - 9
   name: 'Air Pollution and Acute Kidney Injury in the US Medicare Population: A Longitudinal Cohort Study'
   description: The article investigates the association between short-term exposure to air pollution and acute kidney injury (AKI) in the US Medicare population.
   url: "https://pubmed.ncbi.nlm.nih.gov/37036790/"
 - authors: D. Bouquin, A. Trisovic, O. Bertuch, E. Colón-Marrero
   venue: Software Citation Workshop 2022 (ArXiv)
   year: 2023
+  id: 
+  - 6
   name: Advancing Software Citation Implementation
   description: Software's pivotal role in progress is not mirrored in traditional acknowledgments. This report from captures insights from 51 global experts on unresolved software citation issues. It aims to pinpoint and tackle these challenges, benefiting the GLAM community, repository managers, software developers, and publishers.
   url: https://arxiv.org/abs/2302.07500
 - authors: D. Garijo, H. Ménager, L. Hwang, A. Trisovic, M. Hucka, T. Morrell, A. Allen, Task Force on Best Practices for Software Registries, SciCodes Consortium
   venue: PeerJ Computer Science
   year: 2022
+  id: 
+  - 6
   name: Nine Best Practices for Research Software Registries and Repositories
   url: https://peerj.com/articles/cs-1023/?utm_source=Social&utm_medium=Twitter&utm_campaign=cs-1023
   description: As the FORCE11 Software Citation Implementation Working Group, we describe the best practices for software repositories and registries which include defining the scope, policies, and governing rules, along with the background, examples, and collaborative work that went into their development.
 - authors: A. Trisovic
   year: 2023
+  id: 
+  - 6
+  - 7
   name: 'Cluster Analysis of Open Research Data: A Case for Replication Metadata'
   venue: International Journal of Digital Curation
   url: ""
@@ -67,6 +100,11 @@
 - authors: A. Trisovic, T. Pasquier, M. K. Lau, M. Crosas
   venue: Nature Scientific Data
   year: 2022
+  id: 
+  - 6
+  - 7
+  - 9
+  - 10
   name: A Large-Scale Study on Research Code Quality and Execution
   url: https://www.nature.com/articles/s41597-022-01143-6
   description: This paper presents a large-scale study of the quality, programming literacy, and reproducibility of over 2100 datasets that contain research code in R from the Harvard Dataverse data repository.
@@ -74,16 +112,25 @@
   venue: Data Science
   note: (α-β)
   year: 2021
+  id: 
+  - 6
+  - 7
   name: Packaging Research Artefacts with RO-Crate
   url: https://content.iospress.com/articles/data-science/ds210053
   description: We introduce RO-Crate, an open, community-driven, lightweight approach to packaging research artifacts with metadata, including their identifiers, provenance, relations, and annotations.
 - authors: N. Miljković, A. Trisovic, L. Peer
   year: 2021
+  id: 
+  - 6
+  - 7
+  - 10
   name: Towards FAIR Principles for Open Hardware
   venue: Conference on Application of Free Software and Open Hardware (PSSOH)
   description: We elaborate on open hardware dissemination and reuse complexity, present examples of unique demands, and propose leveraging FAIR principles to make it findable, accessible, interoperable, and reusable.
 - authors: K. Blumenthal, A. Goeva, S. Stoudt, A. Trisovic, P. Trisovic
   year: 2021
+  id: 
+  - 9
   note: (α-β)
   name: Why Do We Plot Data?
   venue: Harvard Data Science Review
@@ -91,70 +138,112 @@
 - authors: A. Goeva, P. Jones, S. Stoudt, A. Trisovic
   note: (α-β)
   year: 2021
+  id: 
+  - 10
   name: Recipes for Connector Courses From the Early-Career Board Kitchen
   venue: Harvard Data Science Review
   description: We propose a handful of connector courses for data science, inspired by the article "Interleaving Computational and Inferential Thinking- Data Science for Undergraduates at Berkeley."
 - authors: A. Trisovic, K. Mika, C. Boyd, S. Feger, M. Crosas
   year: 2021
+  id: 
+  - 7
+  - 6
   name: Repository Approaches to Improving the Quality of Shared Data and Code
   venue: Data
   description: We propose three approaches based on computational reproducibility, data curation, and gamified design elements that can be used to indicate and improve the quality of shared data and code in data repositories.
 - authors: S. Frost, A. Goeva, J. Pombra, W. Seaton, S. Stoudt, A. Trisovic, C. Wang, C. Zucker
   year: 2021
+  id: 
+  - 10
+  - 1
   note: (α-β)
   name: Kaleidoscopic Perspectives on Practicum-Based Data Science Education
   venue: Harvard Data Science Review
   description: Early-Career Board members of the Harvard Data Science Review discuss the acquisition of practical data science skills and share their experiences from a number of disciplines.
 - authors: A. Goeva, S. Stoudt, A. Trisovic
   year: 2020
+  id: 
+  - 6
+  - 10
   note: (α-β)
   name: 'Toward Reproducible and Extensible Research: From Values to Action'
   venue: Harvard Data Science Review
   description: This paper discusses the National Academies' report "Reproducibility and Replicability in Science," advocating for reusability and the need for actionable and hierarchical steps for researchers.
 - authors: S. Frost, A. Goeva, W. Seaton, S. Stoudt, A. Trisovic
   year: 2020
+  id: 
+  - 6
+  - 7
+  - 3
   note: (α-β)
   name: 'Early-Career View on Data Science Challenges: Responsibility, Rigor, and Accessibility'
   venue: Harvard Data Science Review
   description: Early-Career Board members of the Harvard Data Science Review present their view of top research challenge areas in data science.
 - authors: A. Trisovic, P. Durbin, T. Schlatter, G. Durand, S. Barbosa, D. Brooke, M. Crosas
   year: 2020
+  id: 
+  - 6
+  - 7
   name: Advancing Computational Reproducibility in the Dataverse Data Repository Platform.
   venue: 3rd International Workshop on Practical Reproducible Evaluation of Computer Systems (P-RECS)
   description: The Dataverse repository software has undertaken integrations with the platforms Code Ocean, Whole Tale, Renku, and Jupyter Binder, which will help capture research code dependencies and advance reproducibility.
 - authors: A. E. Woodard, A. Trisovic, Z. Li, Y. Babuji, R. Chard, T. Skluzacek, B. Blaiszik, D. S. Katz, I. Foster, K. Chard
   year: 2020
+  id: 
+  - 8
+  - 6
   name: Real-Time HEP Analysis With FuncX – a High-Performance Platform for Function as a Service.
   venue: 24th International Conference on Computing in High Energy & Nuclear Physics (CHEP)
   description: We present how the function-as-a-service paradigm can address CERN's computing challenges with efficient and scalable experimental data processing on heterogeneous resources.
 - authors: A. Trisovic, C. R. Jones, B. Couturier, M. Clemencic
   year: 2020
+  id: 
+  - 8
+  - 6
+  - 7
   name: Provenance Tracking in the LHCb Software.
   venue: Computing in Science & Engineering (CISE)
   description: We argue that reproducibility needs to be incorporated into the existing infrastructure and present a new functionality in the CERN software that captures all information within a resulting dataset necessary to reproduce it.
 - authors: X. Chen, S. Dallmeier-Tiessen, R. Dasler, S. Feger, P. Fokianos, J. B. Gonzalez, H. Hirvonsalo, D. Kousidis, A. Lavasa, S. Mele, D. R. Rodriguez, T. Šimko, T. Smith, A. Trisovic, A. Trzcinska, I. Tsanaktsidis, M. Zimmermann, K. Cranmer, L. Heinrich, G. Watts, M. Hildreth, L. Lloret Iglesias, K. Lassila-Perini, S. Neubert
   year: 2019
+  id: 
+  - 8
+  - 7
+  - 10
   note: (α-β)
   name: Open is Not Enough.
   venue: Nature Physics
   description: The platforms CERN Analysis Preservation and Reusable Analyses (REANA) are created to facilitate reproducible research for the LHC experiments at CERN. The project, CERN Open Data, disseminates particle-physics data that can be used for research.
 - authors: A. Trisovic
   year: 2018
+  id: 
+  - 8
+  - 6
   name: Graph Mining at the High-Energy Physics Experiment LHCb.
   venue: 7th International Symposium on Industrial Engineering
   description: The paper presents a number of challenges, questions, and use-cases that can be addressed by exploring and analyzing the LHCb graph database that captures its data and software.
 - authors: A. Trisovic, B. Couturier, V. Gibson, C. Jones
   year: 2017
+  id: 
+  - 8
+  - 6
+  - 7
   name: Recording the LHCb Data and Software Dependencies.
   venue: 22th International Conference on Computing in High Energy and Nuclear Physics (CHEP)
   description: We present the design and development of the LHCb graph database that captures the scientific software stack, its software and hardware dependencies, and its products, which are simulation and experimental data.
 - authors: T. Pasquier, M. K. Lau, A. Trisovic, E. R. Boose, B. Couturier, M. Crosas, A. M. Ellison, V. Gibson, C. R. Jones, M. Seltzer
   year: 2017
+  id: 
+  - 8
+  - 7
   name: If These Data Could Talk.
   venue: Nature Scientific Data
   description: The lack of formalism hinders reporting in computational research, which hinders reproducibility. Data provenance can aid in this problem, as showcased in two use-cases- physics (CERN) and ecology (Harvard Forest).
 - authors: A. Trisovic
   year: 2016
+  id: 
+  - 8
+  - 10
   name: Measuring the D0 Lifetime at the LHCb Masterclass.
   venue: 37th International Conference on High Energy Physics (ICHEP)
   description: The paper presents the design of a stand-alone educational application that displays proton-proton collisions in the LHCb experiment created for the International Masterclass in Physics.

@@ -1,0 +1,16 @@
+- id: 1
+  area: AI, Science & Society
+- id: 3
+  area: AI Methodology
+- id: 4
+  area: Climate Change, Health & AI
+- id: 6
+  area: Research Software & Reproducibility
+- id: 7
+  area: Data Quality, FAIR Principles & Repositories
+- id: 9
+  area: Data Visualization & Statistical Analysis
+- id: 10
+  area: Open Science & Education
+- id: 8
+  area: High Energy Physics

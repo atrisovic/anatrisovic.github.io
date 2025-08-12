@@ -7,58 +7,19 @@ title: Home
 
 {% include main.html %}
 
-
 <section id="one" class="wrapper">
-  <h1>Research Highlights and Initiatives</h1>
-  <div class="row">
-    <div class="6u 12u$(small)">
-      <div>
-        <h3>Science of Science</h3>
-        <p>
-        <ul>
-          <li><a href="https://chat.openai.com/g/g-m2zcOcRgu-reprogpt">ReproGPT: AI Assistant for Reproducible Research</a></li>
-          <li><a href="https://cfa-library.github.io/citesoftware.org/">Software Citaion Initiative</a></li>
-          <li><a href="https://sites.harvard.edu/harvard-data-commons/about/">Harvard Data Commons</a></li> 
-          <li><a href="https://atrisovic.github.io/clir-webinar/">CLIR Webinar: Toward Open, Reproducible and Reusable Research</a></li>
-        </ul>
-        </p>
-      </div>
-      <div>
-        <h3>Dataverse Research Repository</h3>
-        <p>
-          
-        <ul>
-          <li><a href="https://github.com/marketplace/actions/dataverse-uploader-action">GitHub Action for uploading files on Dataverse</a></li>
-          <li><a href="https://atrisovic.github.io/dataverse-badge/">Dataverse DOI Badge Maker</a></li>
-          <li><a href="https://iqss.github.io/dataverse-tv/">Dataverse TV</a></li>
-        </ul>
-        </p>
-      </div>
-    </div>
-    <div class="6u 12u$(small)">
-      <div>
-        <h3>Climate Research</h3>
-        <p>
-        <ul>
-          <li><a href="https://github.com/NSAPH-Projects/space">SpaCE: The Spatial Confounding Environment</a></li>
-          <li><a href="https://doi.org/10.7910/DVN/9VDUAP">Co-exposure of extreme heat, wildfire and wildfire smoke dataset</a></li>
-          <li><a href="https://github.com/ClimateImpactLab/climate_toolbox">Climate Toolbox: Python package for climate data wrangling</a></li>
-          <li><a href="https://climateestimate.net">Practical Guide to Climate Econometrics</a></li>
-        </ul>
-        </p>
-      </div>
-      <div>
-        <h3>CERN</h3>
-        <p>
-        <ul>
-          <li><a href="http://lhcb.web.cern.ch/lhcb/">LHCb experiment</a></li>
-          <li><a href="http://opendata.cern.ch">CERN Open Data</a></li>
-          <li><a href="https://analysispreservation.cern.ch">CERN Analysis Preservation</a></li>
-        </ul>
-        </p>
-      </div>
-    </div>
-  </div>
+  <h1>Research Areas</h1>
+  <table>
+    <tbody>
+      {% for area in site.data.areas %}
+      <tr>
+        <td style="text-align: center; font-weight: bold;">
+          <a href="area.html?id={{ area.id }}">{{ area.area }}</a>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
 </section>
 
 <!-- Two -->

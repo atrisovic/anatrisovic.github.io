@@ -1,0 +1,69 @@
+- id: 
+  - 3
+  - 6
+  type: software
+  name: "ReproGPT: AI Assistant for Reproducible Research"
+  url: https://chat.openai.com/g/g-m2zcOcRgu-reprogpt
+- id: 
+  - 6
+  - 10
+  type: project
+  name: Software Citation Initiative
+  url: https://cfa-library.github.io/citesoftware.org/
+- id: 7
+  type: project
+  name: Harvard Data Commons
+  url: https://sites.harvard.edu/harvard-data-commons/about/
+- id: 6
+  type: project
+  name: "CLIR Webinar: Toward Open, Reproducible and Reusable Research"
+  url: https://atrisovic.github.io/clir-webinar/
+- id: 7
+  type: software
+  name: GitHub Action for uploading files on Dataverse
+  url: https://github.com/marketplace/actions/dataverse-uploader-action
+- id: 7
+  type: software
+  name: Dataverse DOI Badge Maker
+  url: https://atrisovic.github.io/dataverse-badge/
+- id: 7
+  type: software
+  name: Dataverse TV
+  url: https://iqss.github.io/dataverse-tv/
+- id: 
+  - 4
+  - 3
+  type: software
+  name: "SpaCE: The Spatial Confounding Environment"
+  url: https://github.com/NSAPH-Projects/space
+- id: 
+  - 4
+  - 3
+  - 1
+  type: dataset
+  name: Co-exposure of extreme heat, wildfire and wildfire smoke dataset
+  url: https://doi.org/10.7910/DVN/9VDUAP
+- id: 4
+  type: software
+  name: "Climate Toolbox: Python package for climate data wrangling"
+  url: https://github.com/ClimateImpactLab/climate_toolbox
+- id: 4
+  type: software
+  name: Practical Guide to Climate Econometrics
+  url: https://climateestimate.net
+- id: 8
+  type: project
+  name: LHCb experiment
+  url: http://lhcb.web.cern.ch/lhcb/
+- id: 
+  - 8
+  - 7
+  type: software
+  name: CERN Open Data
+  url: http://opendata.cern.ch
+- id: 
+  - 8
+  - 6
+  type: software
+  name: CERN Analysis Preservation
+  url: https://analysispreservation.cern.ch
