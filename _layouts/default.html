@@ -93,7 +93,7 @@
         </div>
     </section>
     {% else %}
-    <div id="banner-alt" style="background-image: url('{{page.banner}}');">
+    <div id="banner-alt" style="background-image: url('{{page.banner}}'); background-position: {{ page.position | default: 'center' }};">
     </div>
     {% endif %}
 
