@@ -30,10 +30,10 @@ position: center 60%
 
 </br>
 
-<h2>Datasets</h2>
+<h2>Data, Software & Tools</h2>
 <ul id="resource-list">
   {% for entry in site.data.resources %}
-    {% if entry.type == "dataset" %}
+    {% if entry.type == "dataset" or entry.type == "software" %}
       <li data-ids="{{ entry.id | join: ',' }}">
         <a href="{{ entry.url }}">{{ entry.name }}</a>
       </li>
@@ -43,7 +43,7 @@ position: center 60%
 
 </br>
 
-<h2>Software & Tools</h2>
+<!-- <h2>Software & Tools</h2>
 <ul id="resource-list">
   {% for entry in site.data.resources %}
     {% if entry.type == "software" %}
@@ -52,11 +52,11 @@ position: center 60%
       </li>
     {% endif %}
   {% endfor %}
-</ul>
+</ul> -->
 
 </br>
 
-<h2>Projects & Initiatives</h2>
+<h2>Projects, Activities & More</h2>
 <ul id="resource-list">
   {% for entry in site.data.resources %}
     {% if entry.type == "project" %}

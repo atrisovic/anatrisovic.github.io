@@ -30,15 +30,9 @@
   name: Dataverse DOI Badge Maker
   url: https://atrisovic.github.io/dataverse-badge/
 - id: 7
-  type: software
+  type: project
   name: Dataverse TV
   url: https://iqss.github.io/dataverse-tv/
-- id: 
-  - 4
-  - 3
-  type: software
-  name: "SpaCE: The Spatial Confounding Environment"
-  url: https://github.com/NSAPH-Projects/space
 - id: 
   - 4
   type: dataset
@@ -60,10 +54,6 @@
   type: software
   name: "Climate Toolbox: Python package for climate data wrangling"
   url: https://github.com/ClimateImpactLab/climate_toolbox
-- id: 4
-  type: software
-  name: Practical Guide to Climate Econometrics
-  url: https://climateestimate.net
 - id: 8
   type: project
   name: LHCb experiment
@@ -77,12 +67,39 @@
 - id: 
   - 8
   - 7
-  type: software
+  type: project
   name: CERN Open Data
   url: http://opendata.cern.ch
 - id: 
   - 8
   - 6
-  type: software
+  type: project
   name: CERN Analysis Preservation
   url: https://analysispreservation.cern.ch
+- id:
+  - 8
+  - 6
+  type: project
+  name: REANA - Reusable Analyses
+  url: https://reanahub.io
+- id:
+  - 8
+  - 10
+  type: software
+  name: "LHCb Masterclass Exercise: Measuring the D0 Lifetime"
+  url: https://lhcb-outreach.web.cern.ch/lhcbinternationalmasterclasses/d0-lifetime/
+- id: 
+  - 9
+  - 4
+  - 3
+  type: software
+  url: https://github.com/NSAPH-Projects/space-data
+  name: "Spatial Confounding Environment (SpaCE) Python Package"
+- id: 7
+  type: project
+  url: "https://dataverse.harvard.edu"
+  name: Harvard Dataverse
+- id: 1
+  type: project
+  name: "FutureTech Workshop on The Role of AI in Science"
+  url: https://futuretech.mit.edu/workshop-on-the-role-of-ai-in-science
