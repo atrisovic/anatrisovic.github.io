@@ -1,0 +1,34 @@
+---
+layout: default
+title: Research
+banner: images/img91.jpg
+position: center 40%
+---
+
+
+{% include bio.html %}
+
+<h1>Media </h1>
+
+<ul class="alt" style="padding: 0 0;">
+  {% for media in site.data.media %}
+  <li><a href="{{ media.link }}">{{ media.title }}</a></li>
+  {% endfor %}
+</ul>
+
+<h1>References and Resources</h1>
+
+<div class="6u 12u$(small)">
+  <div>
+    <ul>
+      <li><a href="https://futuretech.mit.edu/team/ana-trisovic">My FutureTech page</a></li>
+      <li><a href="https://projects.iq.harvard.edu/atrisovic">My IQSS page</a></li>
+      <li><a href="https://cds.cern.ch/record/2640461/files/CERN-THESIS-2018-174.pdf">My PhD thesis</a></li>
+      <li><a href="docs/atrisovic-industry-cv.pdf">My Resume</a></li>
+      <li><a href="docs/Ana-Trisovic.png">My Photo</a></li>
+    </ul>
+  </div>
+</div>
+
+</br>
+</br>
