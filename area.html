@@ -14,11 +14,8 @@ position: center 60%
     <div class="12u" id="publications-list">
       {% for publication in site.data.publications %}
         <div class="publication" data-ids="{{ publication.id | join: ',' }}">
-          <h3><a href="{{ publication.url }}">{{ publication.name }}</a></h3>
-          <p>
-            {{ publication.note }} {{ publication.authors }}
-            <br><strong>{{ publication.venue }}</strong>, {{ publication.year }}
-          </p>
+          <strong><a href="{{ publication.url }}">{{ publication.name }}</a></strong>
+          <p> {{ publication.note }} {{ publication.authors }}. ({{ publication.year }}). <i>{{ publication.venue }}</i>
           <details>
             <summary>Description</summary>
             <blockquote>

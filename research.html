@@ -33,9 +33,8 @@ position: center 60%
 <div class="row 200%">
     <div class="12u">
         {% for publication in site.data.publications %}
-        <h3><a href="{{ publication.url }}">{{ publication.name }}</a></h3>
-        <p> {{ publication.note }} {{ publication.authors }}
-            <br><strong>{{ publication.venue }}</strong>, {{ publication.year }}
+        <strong><a href="{{ publication.url }}">{{ publication.name }}</a></strong>
+        <p> {{ publication.note }} {{ publication.authors }}. ({{ publication.year }}). <i>{{ publication.venue }}</i>
         <details>
             <summary>Description</summary>
             <blockquote>
