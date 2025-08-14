@@ -102,8 +102,6 @@ video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
 }
 
@@ -1874,13 +1872,14 @@ textarea {
 }
 
 a {
-	color: var(--second-color);
+    color: var(--second-color);
+	font-weight: normal;
 	text-decoration: none;
 	/*  underline; */
 }
 
 a:hover {
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 strong,
@@ -3436,6 +3435,7 @@ body.is-loading #banner .content {
 #footer a {
 	color: #c8e7f0;
 	text-decoration: none;
+	font-weight: 300;
 }
 
 #footer ul li {
@@ -3509,4 +3509,45 @@ body.is-loading #banner .content {
 		padding: 2em 0;
 	}
 
+}
+
+#education-table {
+	border-collapse: separate; /* or collapse if you prefer */
+    border-spacing: 0;         /* adjust as needed */
+    background-color: transparent;
+    height: 100%;
+}
+
+#education-table td {
+	padding: 8px;
+}
+
+#education-table tr:first-child {
+    height: 85px;
+}
+
+#education-table .col-logo {
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+#education-table .col-text {
+    text-align: left;
+    vertical-align: middle;
+}
+
+#education-table img {
+    height: 40px;
+    vertical-align: middle;
+    margin-right: 5px;
+    display: inline-block;
+}
+#education-table tbody tr:nth-child(2n + 1) {
+    background-color: transparent !important;
+}
+
+#education-table .degree {
+	display: block;           /* each on its own line */
+	/* white-space: nowrap;      prevent wrapping */
 }
