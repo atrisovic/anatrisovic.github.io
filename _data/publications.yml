@@ -28,7 +28,7 @@
   id: 
   - 3
   - 4
-  name: Predicting concurrence of heatwaves, droughts, and wildfires with spatiotemporal deep learning
+  name: Predicting Concurrence of Heatwaves, Droughts, and Wildfires with Spatiotemporal Deep Learning
   venue: Tackling Climate Change with Machine Learning at ICLR
   description: We introduce a framework to identify a state-of-the-art multi-task model for jointly predicting heatwaves, droughts, and wildfires, capturing shared risk factors across these climate extremes. 
   url: https://s3.us-east-1.amazonaws.com/climate-change-ai/papers/iclr2025/71/paper.pdf
