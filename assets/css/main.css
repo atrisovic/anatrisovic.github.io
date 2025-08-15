@@ -3512,18 +3512,19 @@ body.is-loading #banner .content {
 }
 
 #education-table {
-	border-collapse: separate; /* or collapse if you prefer */
-    border-spacing: 0;         /* adjust as needed */
+	border-collapse: separate;
+    border-spacing: 0;         
     background-color: transparent;
     height: 100%;
 }
 
 #education-table td {
 	padding: 8px;
+	height: 70px;
 }
 
 #education-table tr:first-child {
-    height: 85px;
+    height: 70px;
 }
 
 #education-table .col-logo {
