@@ -14,6 +14,7 @@
   - 3
   name: "LLMs in Citation Intent Classification: Progress, Precision, and Reproducibility Challenges"
   venue: ACM Conference on Reproducibility and Replicability (ACM REP)
+  url: https://dl.acm.org/doi/10.1145/3736731.3746137
   description: We investigate the use of LLMs for multi-class citation intent classification, highlighting striking inter-model disagreement among state-of-the-art systems and revealing key challenges in the robustness, transparency, and reproducibility of LLM-based research.
 - authors: J. K. Hu*, A. Trišović*, A. Bakshi, D. Braun, F. Dominici, J. A. Casey
   year: 2025
