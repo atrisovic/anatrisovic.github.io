@@ -1,3 +1,11 @@
+- authors: H. Gundlach, A. Fogelson, J. Lynch, A. Trišović, J. Rosenfeld, A. Sandhu, N. Thompson
+  year: 2025
+  id:
+    - 1
+    - 3
+  name: "On the Origin of Algorithmic Progress in AI"
+  venue: "ArXiv"
+  description: This project investigates the origins of AI’s algorithmic efficiency improvements by combining ablation studies, literature synthesis, and scaling experiments, revealing that most of the observed gains arise from scale-dependent effects, particularly the LSTM-to-Transformer transition, and that true small-model algorithmic progress is far smaller than previously estimated.
 - authors: A. Trišović*, A. Fogelson*, J. Sivaloganathan, N. Thompson
   year: 2025
   id: 
