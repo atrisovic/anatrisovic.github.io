@@ -1,3 +1,12 @@
+- authors: A. Trišović*, A. Fogelson*, J. Sivaloganathan, N. Thompson
+  year: 2025
+  id: 
+  - 1
+  - 6
+  name: "The Rapid Growth of AI Foundation Model Usage in Science"
+  venue: ArXiv
+  url: https://arxiv.org/abs/2511.21739
+  description: We analyze scientific use of AI Foundation Models and find rapidly rising adoption, led by Linguistics, Computer Science, and Engineering. Vision models and open-weight models dominate. Scientists use much smaller models than AI developers, and this gap is widening. Evidence suggests that relying on smaller models may limit scientific impact.
 - authors: H. Gundlach, A. Fogelson, J. Lynch, A. Trišović, J. Rosenfeld, A. Sandhu, N. Thompson
   year: 2025
   id:
@@ -7,14 +16,6 @@
   url: https://arxiv.org/pdf/2511.21622
   venue: "ArXiv"
   description: This project investigates the origins of AI’s algorithmic efficiency improvements by combining ablation studies, literature synthesis, and scaling experiments, revealing that most of the observed gains arise from scale-dependent effects, particularly the LSTM-to-Transformer transition, and that true small-model algorithmic progress is far smaller than previously estimated.
-- authors: A. Trišović*, A. Fogelson*, J. Sivaloganathan, N. Thompson
-  year: 2025
-  id: 
-  - 1
-  - 6
-  name: "The Rapid Growth of AI Foundation Model Usage in Science"
-  venue: ArXiv
-  description: We analyze scientific use of AI Foundation Models and find rapidly rising adoption, led by Linguistics, Computer Science, and Engineering. Vision models and open-weight models dominate. Scientists use much smaller models than AI developers, and this gap is widening. Evidence suggests that relying on smaller models may limit scientific impact.
 - authors: J. Sivaloganathan, A. Trišović, N. Thompson
   year: 2025
   id: 
