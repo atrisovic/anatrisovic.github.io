@@ -1,47 +1,42 @@
-- authors: J. K. Hu*, A. Trisovic*, A. Bakshi, D. Braun, F. Dominici, J. A. Casey
+- authors: A. Trišović, A. Fogelson, J. Sivaloganathan, N. Thompson
   year: 2025
-  image: images/logo-sa.png
-  name: Co-exposure to Extreme Heat, Wildfire Burn Zones, and Wildfire Smoke in the Western US from 2006 to 2020 
-  venue: Science Advances
-  url: https://www.science.org/doi/10.1126/sciadv.adq6453
-- authors: M. Tec, A. Trisovic, M. Audirac, S. Woodward, J. K. Hu, N. Khoshnevis, F. Dominici
+  image: images/paper_ai_sci.png
+  name: "The Rapid Growth of AI Foundation Model Usage in Science"
+  venue: ArXiv
+  url: https://arxiv.org/abs/2511.21739
+  description: We analyze scientific use of AI Foundation Models and find rapidly rising adoption, led by Linguistics, Computer Science, and Engineering. Vision models and open-weight models dominate. Scientists use much smaller models than AI developers, and this gap is widening. Evidence suggests that relying on smaller models may limit scientific impact.
+- authors: A. Trišović, A. Fogelson, N. Thompson
+  year: 2025
+  image: images/paper_china.png
+  name: "Four Facts About US-China AI Competition in Science"
+  venue: SSRN
+  description: This study examines the global adoption of AI foundation models in scientific publications from 2012 to 2024, with a particular focus on comparative patterns between the United States and China.
+  url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6028854&__cf_chl_tk=2t4MJQaenws96FkZc_3RZkO3hUTvZsIyaUUujEeSGAg-1771961417-1.0.1.1-B5wlQuIJ1ygoKpHoOOhREZlytkH4iMHBa2ClQyXvC5s
+- authors: H. Gundlach, A. Fogelson, J. Lynch, A. Trišović, J. Rosenfeld, A. Sandhu, N. Thompson
+  year: 2025
+  image: images/paper_algs.png
+  name: "On the Origin of Algorithmic Progress in AI"
+  url: https://arxiv.org/pdf/2511.21622
+  venue: "ArXiv"
+  description: This project investigates the origins of AI’s algorithmic efficiency improvements by combining ablation studies, literature synthesis, and scaling experiments, revealing that most of the observed gains arise from scale-dependent effects, particularly the LSTM-to-Transformer transition, and that true small-model algorithmic progress is far smaller than previously estimated.
+- authors: A. Fogelson, A. Trišović, N. Thompson
+  year: 2025
+  image:
+  name: "LLMs in Citation Intent Classification: Progress, Precision, and Reproducibility Challenges"
+  venue: ACM Conference on Reproducibility and Replicability (ACM REP)
+  url: https://dl.acm.org/doi/10.1145/3736731.3746137
+  image: images/paper_repro.png
+  description: We investigate the use of LLMs for multi-class citation intent classification, highlighting striking inter-model disagreement among state-of-the-art systems and revealing key challenges in the robustness, transparency, and reproducibility of LLM-based research.
+- authors: M. Tec, A. Trišović, M. Audirac, S. Woodward, J. K. Hu, N. Khoshnevis, F. Dominici
   venue: The 12th International Conference on Learning Representations (ICLR)
   year: 2024
-  image: images/logo-iclr.jpg
+  image: images/paper_space.png
   name: 'SpaCE: The Spatial Confounding Environment'
   description: We introduce SpaCE - The Spatial Confounding Environment, the first toolkit to provide realistic benchmark datasets and tools for systematically evaluating causal inference methods designed to alleviate spatial confounding.
   url: https://openreview.net/pdf?id=D9rJdtmIG6
-# - authors: W. Lee, X. Wu, S. Heo, J. M. Kim, K. C. Fong, J. Son, M. B. Sabath, A. Trisovic, D. Braun, J. Y. Park, Y. C. Kim, J. P. Lee, J. Schwartz, H. Kim, F. Dominici, Z. Al-Aly, M. L. Bell
-#   venue: Environmental Health Perspectives
-#   year: 2023
-#   image: images/logo-ehp2.jpg
-#   name: 'Air Pollution and Acute Kidney Injury in the US Medicare Population: A Longitudinal Cohort Study'
-#   description: The article investigates the association between short-term exposure to air pollution and acute kidney injury (AKI) in the US Medicare population.
-#   url: "https://pubmed.ncbi.nlm.nih.gov/37036790/"
-- authors: A. Trisovic, T. Pasquier, M. K. Lau, M. Crosas
+- authors: A. Trišović, T. Pasquier, M. K. Lau, M. Crosas
   venue: Nature Scientific Data
   year: 2022
-  image: images/logo-sci-dat.jpg
+  image: images/paper_code.png
   name: A Large-Scale Study on Research Code Quality and Execution
   url: https://www.nature.com/articles/s41597-022-01143-6
-- authors: D. Garijo, H. Ménager, L. Hwang, A. Trisovic, M. Hucka, T. Morrell, A. Allen, Task Force on Best Practices for Software Registries, SciCodes Consortium
-  venue: PeerJ Computer Science
-  year: 2022
-  image: images/logo-peer-j.jpg
-  name: Nine Best Practices for Research Software Registries and Repositories
-  url: https://peerj.com/articles/cs-1023/?utm_source=Social&utm_medium=Twitter&utm_campaign=cs-1023
-  description: As the FORCE11 Software Citation Implementation Working Group, we describe the best practices for software repositories and registries which include defining the scope, policies, and governing rules, along with the background, examples, and collaborative work that went into their development.
-- authors: A. Goeva, S. Stoudt, A. Trisovic
-  year: 2020
-  note: (α-β)
-  name: 'Toward Reproducible and Extensible Research: From Values to Action'
-  venue: Harvard Data Science Review
-  url: https://hdsr.mitpress.mit.edu/pub/lm3txy12/release/2
-  image: images/logo-hdsr.jpg
-- authors: X. Chen, S. Dallmeier-Tiessen, R. Dasler, S. Feger, P. Fokianos, J. B. Gonzalez, H. Hirvonsalo, D. Kousidis, A. Lavasa, S. Mele, D. R. Rodriguez, T. Šimko, T. Smith, A. Trisovic, A. Trzcinska, I. Tsanaktsidis, M. Zimmermann, K. Cranmer, L. Heinrich, G. Watts, M. Hildreth, L. Lloret Iglesias, K. Lassila-Perini, S. Neubert
-  year: 2019
-  name: Open is Not Enough
-  venue: Nature Physics
-  note: (α-β)
-  image: images/logo-naphy.jpg
-  description: The platforms CERN Analysis Preservation and Reusable Analyses (REANA) are created to facilitate reproducible research for the LHC experiments at CERN. The project, CERN Open Data, disseminates particle-physics data that can be used for research.

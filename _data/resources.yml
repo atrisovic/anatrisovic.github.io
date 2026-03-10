@@ -5,7 +5,7 @@
   name: "ReproGPT: AI Assistant for Reproducible Research"
   url: https://chat.openai.com/g/g-m2zcOcRgu-reprogpt
 - id: 
-  - 6
+  - 7
   - 10
   type: project
   name: Software Citation Initiative
@@ -34,7 +34,7 @@
   name: Dataverse TV
   url: https://iqss.github.io/dataverse-tv/
 - id: 
-  - 4
+  - 3
   type: dataset
   name: Co-exposure of extreme heat, wildfire and wildfire smoke dataset
   url: https://doi.org/10.7910/DVN/9VDUAP
@@ -50,48 +50,45 @@
   type: dataset
   url: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/EA3LC5
   name: "Replication Data for: Repository approaches to improving quality of shared data and code"
-- id: 4
+- id: 7
   type: software
   name: "Climate Toolbox: Python package for climate data wrangling"
   url: https://github.com/ClimateImpactLab/climate_toolbox
-- id: 8
+- id: 7
   type: project
   name: LHCb experiment
   url: http://lhcb.web.cern.ch/lhcb/
 - id:
   - 4
-  - 10
+  - 9
   type: project
   url: https://climateestimate.net/content/getting-started.html
   name: "Practical Guide to Climate Econometrics"
 - id: 
-  - 8
   - 7
   type: project
   name: CERN Open Data
   url: http://opendata.cern.ch
 - id: 
-  - 8
-  - 6
+  - 7
   type: project
   name: CERN Analysis Preservation
   url: https://analysispreservation.cern.ch
 - id:
   - 8
-  - 6
+  - 7
   type: project
   name: REANA - Reusable Analyses
   url: https://reanahub.io
 - id:
   - 8
-  - 10
+  - 9
   type: software
   name: "LHCb Masterclass Exercise: Measuring the D0 Lifetime"
   url: https://lhcb-outreach.web.cern.ch/lhcbinternationalmasterclasses/d0-lifetime/
 - id: 
-  - 9
-  - 4
   - 3
+  - 9
   type: software
   url: https://github.com/NSAPH-Projects/space-data
   name: "Spatial Confounding Environment (SpaCE) Python Package"
