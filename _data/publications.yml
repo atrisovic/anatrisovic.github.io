@@ -1,3 +1,13 @@
+- authors: A. Trišović
+  year: 2026
+  id: 
+  - 1
+  - 6
+  name: "The Shrinking Lifespan of LLMs in Science"
+  venue: ArXiv
+  url: https://arxiv.org/pdf/2604.07530
+  description: This paper shows that scientists adopt and abandon language models in a rapidly compressing inverted-U lifecycle, where release timing—more than model characteristics—drives how quickly models peak and fade in relevance.
+
 - authors: A. Trišović, A. Fogelson, N. Thompson
   year: 2025
   id: 
