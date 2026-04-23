@@ -34,9 +34,10 @@
   url: https://dl.acm.org/doi/10.1145/3736731.3746137
   image: images/paper_repro.png
   description: We investigate the use of LLMs for multi-class citation intent classification, highlighting striking inter-model disagreement among state-of-the-art systems and revealing key challenges in the robustness, transparency, and reproducibility of LLM-based research.
-- authors: A. Trišović, T. Pasquier, M. K. Lau, M. Crosas
-  venue: Nature Scientific Data
-  year: 2022
-  image: images/paper_code.png
-  name: A Large-Scale Study on Research Code Quality and Execution
-  url: https://www.nature.com/articles/s41597-022-01143-6
+- authors: J. Sivaloganathan, A. Trišović, N. Thompson
+  year: 2025
+  image: images/paper_sdg.png
+  name: "Mapping the Impact of Foundation Models on the UN Sustainable Development Goals"
+  venue: 21st IEEE International Conference on e-Science (eScience 2025)
+  description: We analyze scientific publications using Foundation Models to assess their alignment with the UN Sustainable Development Goals, revealing a concentration of work on a few goals and large gaps in others. 
+  url: https://www.computer.org/csdl/proceedings-article/escience/2025/914500a375/2aCqag7cixG
