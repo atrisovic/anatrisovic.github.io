@@ -10,7 +10,19 @@ title: Home
 <section id="two" class="wrapper">
   <div class="row 200%">
     <div class="6u 12u$(small)">
-      <h1>Research Interests</h1>
+      <h1>Research Areas</h1>
+      <table id="education-table">
+        <tbody>
+          {% for area in site.data.areas %}
+          <tr>
+            <td class="col-logo">
+              <a href="area.html?id={{ area.id }}">{{ area.area }}</a>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      <!--h1>Research Interests</h1>
       <table id="education-table">
         <tbody>
           <tr>
@@ -25,7 +37,7 @@ title: Home
             </td>
           </tr>
         </tbody>
-      </table>
+      </table-->
     </div>
     <div class="6u 12u$(small)">
       <h1>Experience</h1>
@@ -33,12 +45,12 @@ title: Home
         <tbody>
           <tr>
             <td class="col-logo">
+              <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/MIT_Seal.svg/250px-MIT_Seal.svg.png"
+                alt="Logo">
               <img
-                src="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/MIT_Seal.svg/250px-MIT_Seal.svg.png"
+                src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Harvard_University_shield.svg/250px-Harvard_University_shield.svg.png"
                 alt="Logo">
-              <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Harvard_University_shield.svg/250px-Harvard_University_shield.svg.png"
-                alt="Logo">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/University_of_Chicago_Coat_of_arms.png"
+              <img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/University_of_Chicago_Coat_of_arms.png"
                 alt="Logo">
             </td>
             <td class="col-text">
@@ -51,8 +63,7 @@ title: Home
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Cambridge_University_Crest_-_flat.png/960px-Cambridge_University_Crest_-_flat.png"
                 alt="Logo">
               <!--https://upload.wikimedia.org/wikipedia/commons/f/f1/CERN_logo_badge.svg"  -->
-              <img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/CERN_logo.png" 
-                alt="Logo">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/CERN_logo.png" alt="Logo">
             </td>
             <td class="col-text">
               <strong>Ph.D. in Applied Computer Science</strong> University of Cambridge &
@@ -81,20 +92,9 @@ title: Home
   </div>
 </section>
 
-<section id="one" class="wrapper">
-  <h1>Research Areas</h1>
-  <table>
-    <tbody>
-      {% for area in site.data.areas %}
-      <tr>
-        <td style="text-align: center; font-weight: bold;">
-          <a href="area.html?id={{ area.id }}">{{ area.area }}</a>
-        </td>
-      </tr>
-      {% endfor %}
-    </tbody>
-  </table>
-</section>
+<!--section id="one" class="wrapper">
+  
+</section-->
 
 
 <!-- Three -->
