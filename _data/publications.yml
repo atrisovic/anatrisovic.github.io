@@ -33,8 +33,15 @@
     - 3
   name: "On the Origin of Algorithmic Progress in AI"
   url: https://arxiv.org/pdf/2511.21622
-  venue: "ArXiv"
+  venue: "Workshop on Technical AI Governance Research at ICML (Best Paper Award)"
   description: This project investigates the origins of AI’s algorithmic efficiency improvements by combining ablation studies, literature synthesis, and scaling experiments, revealing that most of the observed gains arise from scale-dependent effects, particularly the LSTM-to-Transformer transition, and that true small-model algorithmic progress is far smaller than previously estimated.
+- authors: F. Martino O'Rourke, A. Trišović, D. Bertsimas
+  year: 2026
+  id:
+    - 3
+  venue: "Workshop on Foundation Models for Structured Data at ICML"
+  name: "A Causal DAG Prior for Synthetic Time-Series Classification Datasets"
+  description: We introduce a causal synthetic data generator for multivariate time-series classification that enables prior-data fitted networks to learn temporal and cross-modal structure, and show that fine-tuning TabPFN on this prior improves performance over both the original model and a tabular-only prior across 75 UCR/UEA datasets.
 - authors: J. Sivaloganathan, A. Trišović, N. Thompson
   year: 2025
   id: 
