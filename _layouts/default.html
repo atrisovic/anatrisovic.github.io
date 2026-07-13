@@ -12,39 +12,52 @@
 
     <style>
         .banner-content {
-            width: 50%; /* Maximum width */
-            margin: auto; /* Centering */
+            width: 50%;
+            /* Maximum width */
+            margin: auto;
+            /* Centering */
         }
 
         .inner-content {
-            margin: 0 10%; /* Reduced margin for smaller screens */
-            text-shadow: 0 0 8px #fdffe1; /* Horizontal, vertical offset, blur radius, and color */
+            margin: 0 10%;
+            /* Reduced margin for smaller screens */
+            text-shadow: 0 0 8px #fdffe1;
+            /* Horizontal, vertical offset, blur radius, and color */
         }
 
         /* Media query for larger screens */
         @media (min-width: 600px) {
             .banner-content {
-                margin-right: auto; /* Align the div to the right on large screens */
-                margin-left: 0;
+                margin-right: auto;
+                /* Align the div to the right on large screens */
+                margin-left: 15%;
             }
+
             .inner-content {
-                margin: 0 20%; /* Larger margin for larger screens */
+                margin: 0 20%;
+                /* Larger margin for larger screens */
             }
         }
 
         .container {
             display: flex;
-            align-items: center; /* Aligns items vertically in the center */
+            align-items: center;
+            /* Aligns items vertically in the center */
         }
 
-        .div1, .div2 {
-            flex: 1; /* Each div takes up equal space */
-            padding: 10px; /* Spacing inside the divs */
-            text-align: center; /* Center text horizontally */
+        .div1,
+        .div2 {
+            flex: 1;
+            /* Each div takes up equal space */
+            padding: 10px;
+            /* Spacing inside the divs */
+            text-align: center;
+            /* Center text horizontally */
         }
 
         .div1 {
-            border-right: 1px solid #dddddd; /* 1px solid vertical line on the right of div1 */
+            border-right: 1px solid #dddddd;
+            /* 1px solid vertical line on the right of div1 */
         }
 
         /* Optional: Add more styling as per your needs */
@@ -93,7 +106,8 @@
         </div>
     </section>
     {% else %}
-    <div id="banner-alt" style="background-image: url('{{page.banner}}'); background-position: {{ page.position | default: 'center' }};">
+    <div id="banner-alt"
+        style="background-image: url('{{page.banner}}'); background-position: {{ page.position | default: 'center' }};">
     </div>
     {% endif %}
 
@@ -108,34 +122,34 @@
     <footer id="footer">
         <div class="container">
             <div class="div1">
-                    <ul class="actions" style="text-align: right;">
-                        {% for item in site.data.navigation %}
-                        <li><a href="{{ item.link }}" class="label">
-                                {{ item.name }}
-                            </a></li></br>
-                        {% endfor %}
-                    </ul>
+                <ul class="actions" style="text-align: right;">
+                    {% for item in site.data.navigation %}
+                    <li><a href="{{ item.link }}" class="label">
+                            {{ item.name }}
+                        </a></li></br>
+                    {% endfor %}
+                </ul>
             </div>
             <div class="div2">
-                    <ul class="actions" style="text-align: left;">
-                        <li><span class="icon fa-twitter"></span><a href="https://twitter.com/atrisovic"><span
-                                    class="label">
-                                    Twitter/X</span></a></li></br>
-                        <li><span class="icon fa-linkedin"></span><a
-                                href="https://www.linkedin.com/in/ana-trisovic-48548636/"><span class="label"></span>
-                                LinkedIn</span></a></li></br>
-                        <li><span class="icon fa-instagram"></span><a href="https://www.instagram.com/atrisovic"><span
-                                    class="label"> Instagram</span></a></li></br>
-                        <li><span class="icon fa-github"></span><a href="https://github.com/atrisovic"><span class="label">
-                                    GitHub</span></a></li></br>
-                        <li><span class="icon fa-book"></span> <a
-                                href="https://scholar.google.com/citations?user=pXNKpl8AAAAJ"><span class="label">
-                                    Scholar</span></a></li></br>
-                        <li><span class="icon fa-envelope"></span> <a href="mailto:ana_tris@mit.edu"><span class="label">
-                                    Email</span></a></li></br>
-                        <li><span class="icon fa-map-marker"></span> 32G-724</li></br>
-                    </ul>
-                </div>
+                <ul class="actions" style="text-align: left;">
+                    <li><span class="icon fa-twitter"></span><a href="https://twitter.com/atrisovic"><span
+                                class="label">
+                                Twitter/X</span></a></li></br>
+                    <li><span class="icon fa-linkedin"></span><a
+                            href="https://www.linkedin.com/in/ana-trisovic-48548636/"><span class="label"></span>
+                            LinkedIn</span></a></li></br>
+                    <li><span class="icon fa-instagram"></span><a href="https://www.instagram.com/atrisovic"><span
+                                class="label"> Instagram</span></a></li></br>
+                    <li><span class="icon fa-github"></span><a href="https://github.com/atrisovic"><span class="label">
+                                GitHub</span></a></li></br>
+                    <li><span class="icon fa-book"></span> <a
+                            href="https://scholar.google.com/citations?user=pXNKpl8AAAAJ"><span class="label">
+                                Scholar</span></a></li></br>
+                    <li><span class="icon fa-envelope"></span> <a href="mailto:ana_tris@mit.edu"><span class="label">
+                                Email</span></a></li></br>
+                    <li><span class="icon fa-map-marker"></span> 32G-724</li></br>
+                </ul>
+            </div>
         </div>
     </footer>
 
