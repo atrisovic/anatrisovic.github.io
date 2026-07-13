@@ -95,7 +95,155 @@ title: Home
 <!--section id="one" class="wrapper">
   
 </section-->
+<!-- ============================================================
+     NEWS BLOCK — drop-in section for anatrisovic.com
+     Self-contained: styles scoped under .news-section
+     Width inherits from parent. Left-aligned text, timeline on the LEFT.
+     Newest first. To add an item, copy one <li class="news-item"> to the top.
+     ============================================================ -->
+<section class="news-section" aria-label="News and updates">
+  <h1>News</h1>
 
+  <ul class="news-list">
+
+    <li class="news-item">
+      <time class="news-date" datetime="2026-07">Jul 2026</time>
+      <span class="news-text"><em>The Shrinking Lifespan of LLMs in Science</em> accepted at <strong>COLM
+          2026</strong></span>
+    </li>
+
+    <li class="news-item">
+      <time class="news-date" datetime="2026-06">Jun 2026</time>
+      <span class="news-text"><em>On the Origin of Algorithmic Progress in AI</em> — <strong>Best Paper</strong>, ICML
+        TAIG Workshop</span>
+    </li>
+
+    <li class="news-item">
+      <time class="news-date" datetime="2026-06">Jun 2026</time>
+      <span class="news-text"><em>A Causal DAG Prior for Synthetic Time-Series Classification Datasets</em> accepted at
+        <strong>ICML 2026 FMSD Workshop</strong></span>
+    </li>
+
+    <li class="news-item">
+      <time class="news-date" datetime="2026-05">May 2026</time>
+      <span class="news-text">Keynote at the <strong>StartSe AI Festival</strong>, São Paulo, Brazil</span>
+    </li>
+
+  </ul>
+</section>
+
+<style>
+  .news-section {
+    /* width inherited from parent — no max-width, no auto margins */
+    margin: -1rem 0 3rem 0;
+    font-family: inherit;
+    color: #1a1a1a;
+  }
+
+  /* .news-heading {
+    font-size: 2.25rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    margin: 0 0 1.5rem 0;
+    color: #111;
+    text-align: left;
+  } */
+
+  /* timeline spine runs down the LEFT edge */
+  .news-list {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 2rem;
+    /* room for spine + dots on the left */
+    position: relative;
+    border-left: 2px solid #e6e6e6;
+  }
+
+  /* each item: date + text on one line, left-aligned, hugging the spine */
+  .news-item {
+    position: relative;
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    gap: 1rem;
+    padding: 0.7rem 0 0.7rem 1.25rem;
+    text-align: left;
+  }
+
+  .news-item:first-child {
+    padding-top: 0;
+  }
+
+  .news-item:last-child {
+    padding-bottom: 0;
+  }
+
+  /* dot on the left-hand spine */
+  .news-item::after {
+    content: "";
+    position: absolute;
+    left: -2rem;
+    top: 50%;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: #111;
+    border: 3px solid #fff;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 0 1px #e6e6e6;
+  }
+
+  .news-item:first-child::after {
+    background: #b23a48;
+    /* accent for the newest / headline item */
+    box-shadow: 0 0 0 1px #b23a48;
+  }
+
+  .news-date {
+    flex: none;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #8a8a8a;
+    white-space: nowrap;
+  }
+
+  .news-text {
+    /* font-size: 1.02rem;
+    line-height: 1.4; */
+    color: #2a2a2a;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0;
+  }
+
+  .news-text strong {
+    color: #111;
+    font-weight: 700;
+  }
+
+  .news-text em {
+    font-style: italic;
+  }
+
+  /* ---- mobile: keep left rule, allow wrapping so nothing is clipped ---- */
+  @media (max-width: 640px) {
+    .news-heading {
+      font-size: 1.9rem;
+    }
+
+    .news-item {
+      flex-wrap: wrap;
+      gap: 0.15rem 0.75rem;
+    }
+
+    .news-text {
+      white-space: normal;
+    }
+  }
+</style>
 
 <!-- Three -->
 <h1>Featured Publications</h1>

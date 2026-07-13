@@ -3552,3 +3552,19 @@ body.is-loading #banner .content {
 	display: block;           /* each on its own line */
 	/* white-space: nowrap;      prevent wrapping */
 }
+
+/* Equalize the two columns holding education tables (desktop only) */
+@media screen and (min-width: 737px) {
+	#two .row {
+		display: flex;
+	}
+
+	#two .row > div {
+		display: flex;
+		flex-direction: column;
+	}
+
+	#two .row > div > #education-table {
+		flex-grow: 1;
+	}
+}
