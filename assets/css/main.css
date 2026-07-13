@@ -3513,9 +3513,8 @@ body.is-loading #banner .content {
 
 #education-table {
 	border-collapse: separate;
-    border-spacing: 0;         
+    border-spacing: 0;
     background-color: transparent;
-    height: 100%;
 }
 
 #education-table td {
@@ -3550,7 +3549,7 @@ body.is-loading #banner .content {
 
 #education-table .degree {
 	display: block;           /* each on its own line */
-	/* white-space: nowrap;      prevent wrapping */
+	white-space: nowrap;      prevent wrapping
 }
 
 /* Equalize the two columns holding education tables (desktop only) */
