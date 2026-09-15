@@ -12,6 +12,11 @@
   venue: ArXiv
   url: https://arxiv.org/abs/2511.21739
   description: We analyze scientific use of AI Foundation Models and find rapidly rising adoption, led by Linguistics, Computer Science, and Engineering. Vision models and open-weight models dominate. Scientists use much smaller models than AI developers, and this gap is widening. Evidence suggests that relying on smaller models may limit scientific impact.
+- authors: A. Trišović, J. Sivaloganathan
+  year: 2026
+  image: images/paper-funding.png
+  name: "Open Science, Closed Models: How Funding Shapes AI in Science"
+  venue: "Accepted at the AAAI/ACM Conference on Artificial Intelligence, Ethics, and Society (AIES 2026)"
 - authors: A. Trišović, A. Fogelson, N. Thompson
   year: 2025
   image: images/paper_china.png
@@ -19,25 +24,13 @@
   venue: SSRN
   description: This study examines the global adoption of AI foundation models in scientific publications from 2012 to 2024, with a particular focus on comparative patterns between the United States and China.
   url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6028854&__cf_chl_tk=2t4MJQaenws96FkZc_3RZkO3hUTvZsIyaUUujEeSGAg-1771961417-1.0.1.1-B5wlQuIJ1ygoKpHoOOhREZlytkH4iMHBa2ClQyXvC5s
-- authors: H. Gundlach, A. Fogelson, J. Lynch, A. Trišović, J. Rosenfeld, A. Sandhu, N. Thompson
-  year: 2025
-  image: images/paper_algs.png
-  name: "On the Origin of Algorithmic Progress in AI"
-  url: https://arxiv.org/pdf/2511.21622
-  venue: "ArXiv"
-  description: This project investigates the origins of AI’s algorithmic efficiency improvements by combining ablation studies, literature synthesis, and scaling experiments, revealing that most of the observed gains arise from scale-dependent effects, particularly the LSTM-to-Transformer transition, and that true small-model algorithmic progress is far smaller than previously estimated.
-- authors: A. Fogelson, A. Trišović, N. Thompson
-  year: 2025
-  image:
-  name: "LLMs in Citation Intent Classification: Progress, Precision, and Reproducibility Challenges"
-  venue: ACM Conference on Reproducibility and Replicability (ACM REP)
-  url: https://dl.acm.org/doi/10.1145/3736731.3746137
-  image: images/paper_repro.png
-  description: We investigate the use of LLMs for multi-class citation intent classification, highlighting striking inter-model disagreement among state-of-the-art systems and revealing key challenges in the robustness, transparency, and reproducibility of LLM-based research.
-- authors: J. Sivaloganathan, A. Trišović, N. Thompson
-  year: 2025
-  image: images/paper_sdg.png
-  name: "Mapping the Impact of Foundation Models on the UN Sustainable Development Goals"
-  venue: 21st IEEE International Conference on e-Science (eScience 2025)
-  description: We analyze scientific publications using Foundation Models to assess their alignment with the UN Sustainable Development Goals, revealing a concentration of work on a few goals and large gaps in others. 
-  url: https://www.computer.org/csdl/proceedings-article/escience/2025/914500a375/2aCqag7cixG
+- authors: M. Codreanu, A. Imas, J. Mateos-Garcia, J. Emmens, E. Muiruri, A. Turrell, J. Jacobs, A. Kasirzadeh, A. Trišović, Y. Chen, T. Rodchenko, C. Pollard, S. Strand, D. Rock, Z. Iscenko, F. Curto Millet, N. Thompson, and J. Manyika
+  year: 2026
+  name: "AI in Science: Early Insights"
+  url: https://ai.google/static/documents/AI-in-Science.pdf
+  image: images/paper_google.png
+- authors: J. Emmens, J. Liu, A. Trišović, and N. Thompson
+  year: 2026
+  image: images/paper-taxonomy.png
+  name: "Scientific Work"
+  url: https://futuretech.mit.edu/publication/scientific-work
