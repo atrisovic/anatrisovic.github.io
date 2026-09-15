@@ -1,3 +1,27 @@
+- authors: M. Codreanu, A. Imas, J. Mateos-Garcia, J. Emmens, E. Muiruri, A. Turrell, J. Jacobs, A. Kasirzadeh, A. Trišović, Y. Chen, T. Rodchenko, C. Pollard, S. Strand, D. Rock, Z. Iscenko, F. Curto Millet, N. Thompson, and J. Manyika
+  year: 2026
+  name: "AI in Science: Early Insights"
+  url: https://ai.google/static/documents/AI-in-Science.pdf
+  id: 
+  - 1
+  - 6
+  image: images/paper_google.png
+- authors: J. Emmens, J. Liu, A. Trišović, and N. Thompson
+  year: 2026
+  image: images/paper-taxonomy.png
+  name: "Scientific Work"
+  id: 
+  - 1
+  - 6
+  url: https://futuretech.mit.edu/publication/scientific-work
+- authors: A. Trišović, J. Sivaloganathan
+  year: 2026
+  image: images/paper-funding.png
+  id: 
+  - 1
+  - 6
+  name: "Open Science, Closed Models: How Funding Shapes AI in Science"
+  venue: "Accepted at the AAAI/ACM Conference on Artificial Intelligence, Ethics, and Society (AIES 2026)"
 - authors: A. Trišović
   year: 2026
   id: 
