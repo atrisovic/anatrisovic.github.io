@@ -29,8 +29,10 @@
   name: "AI in Science: Early Insights"
   url: https://ai.google/static/documents/AI-in-Science.pdf
   image: images/paper_google.png
-- authors: J. Emmens, J. Liu, A. Trišović, and N. Thompson
-  year: 2026
-  image: images/paper-taxonomy.png
-  name: "Scientific Work"
-  url: https://futuretech.mit.edu/publication/scientific-work
+- authors: H. Gundlach, A. Fogelson, J. Lynch, A. Trišović, J. Rosenfeld, A. Sandhu, N. Thompson
+  year: 2025
+  image: images/paper_algs.png
+  name: "On the Origin of Algorithmic Progress in AI"
+  url: https://arxiv.org/pdf/2511.21622
+  venue: "ArXiv"
+  description: This project investigates the origins of AI’s algorithmic efficiency improvements by combining ablation studies, literature synthesis, and scaling experiments, revealing that most of the observed gains arise from scale-dependent effects, particularly the LSTM-to-Transformer transition, and that true small-model algorithmic progress is far smaller than previously estimated.
