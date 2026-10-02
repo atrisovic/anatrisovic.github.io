@@ -1,0 +1,205 @@
+<!--
+  Landing page for the October 2026 conference posters (reached via QR code, mostly on phones).
+  Styles below are scoped to this page's own classes; the only global rule hides the
+  decorative photo banner so the header block is visible on a phone without scrolling.
+-->
+<style>
+  #banner-alt {
+    display: none;
+  }
+
+  /* The theme colors "header p" #bbb and "strong" #727a82 (below 4.5:1 on white); use body text color here instead. */
+  .oct-hero h1 {
+    margin: 0.25em 0 0.15em 0;
+  }
+
+  .oct-hero p {
+    margin: 0 0 0.6em 0;
+    color: #0c1117;
+  }
+
+  .oct-hero .oct-role {
+    font-weight: 400;
+  }
+
+  .oct-hero .oct-market {
+    font-weight: 400;
+  }
+
+  .oct-section strong,
+  .oct-section b {
+    color: inherit;
+  }
+
+  .oct-actions {
+    display: flex;
+    gap: 0.75em;
+    margin: 0.9em 0 1.1em 0;
+  }
+
+  .oct-actions .button {
+    flex: 1 1 0;
+    min-width: 0;
+    padding: 0 1em;
+    margin: 0;
+  }
+
+  .oct-paper {
+    margin-bottom: 2em;
+  }
+
+  .oct-paper h3 {
+    margin: 0 0 0.4em 0;
+  }
+
+  .oct-paper .oct-meta {
+    margin: 0 0 0.75em 0;
+  }
+
+  .oct-paper figure {
+    margin: 1em 0;
+  }
+
+  .oct-paper figure img {
+    display: block;
+    width: 100%;
+    max-width: 720px;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid #dee1e3;
+  }
+
+  .oct-paper figcaption {
+    font-size: 0.85em;
+    line-height: 1.5;
+    margin-top: 0.5em;
+  }
+
+  .oct-paper ul.actions {
+    margin: 0;
+  }
+
+  .oct-paper ul.actions a {
+    font-weight: 700;
+  }
+
+  .oct-paper ul.actions .icon:before {
+    margin-right: 0.4em;
+  }
+</style>
+
+<header class="oct-hero">
+  <h1>Ana Trišović</h1>
+  <p class="oct-role">Research Scientist, MIT CSAIL FutureTech</p>
+  <p class="oct-market">On the 2026–27 job market: research scientist and faculty roles.</p>
+  <div class="oct-actions">
+    <a href="docs/atrisovic-cv.pdf" class="button big">CV</a>
+    <a href="mailto:ana_tris@mit.edu" class="button big">Email</a>
+  </div>
+  <p>This page collects my October 2026 conference papers and the research question that connects them.</p>
+</header>
+
+<section class="oct-section" aria-labelledby="research-question">
+  <h2 id="research-question">Research question</h2>
+  <!-- PLACEHOLDER (draft, to be confirmed by Ana): research question, 1-2 sentences -->
+  <p>
+    <strong>How does science actually use AI foundation models, and what do the scale, funding, and lifespan of the
+      models scientists adopt mean for the independence and durability of research?</strong>
+  </p>
+  <p>
+    The papers below each answer part of this question. <em>The Shrinking Lifespan
+      of LLMs in Science</em> follows adopted models over time and shows that each successive release year compresses
+    how long a model matters.
+    <em>Open Science, Closed Models</em> links funding
+    acknowledgments to whether papers extend, use, or merely reference models, and finds that the gap across research
+    systems is one of control rather than adoption. <em>The Rapid Growth of AI Foundation Model Usage in Science</em>
+    measures use directly, separating papers that discuss a model from those that run or adapt one, and shows adoption
+    rising near-exponentially while the models scientists use lag far behind the AI frontier.
+  </p>
+</section>
+
+<section class="oct-section" aria-labelledby="papers">
+  <h2 id="papers">Papers</h2>
+
+  <article class="box oct-paper">
+    <div class="content">
+      <h3>The Shrinking Lifespan of LLMs in Science</h3>
+      <p class="oct-meta">
+        Ana Trišović.<br>
+        <em>Conference on Language Modeling (COLM)</em>, 2026.
+      </p>
+      <p>
+        <strong>Key finding:</strong> Each successive release year is associated with a 27% shorter time-to-peak and a
+        23% shorter lifespan (p &lt; 0.001), robust to minimum-age thresholds and controls for model size.
+      </p>
+      <figure>
+        <img src="images/current/llm-lifespan.webp" width="946" height="839" loading="lazy" decoding="async"
+          alt="Line charts of normalized adoptions versus years after model release. Panel A shows the aggregate inverted-U trajectory for 39 LLMs released in 2019 to 2022, with a quadratic fit peaking at about 3.8 years. Panels B to E show per-cohort curves for models released in 2019, 2020, 2021, and 2022, with peaks at 4.0, 3.4, 2.9, and 2.0 years and steeper curvature in later cohorts.">
+        <figcaption>LLM adoption in science follows an inverted-U curve that compresses across cohorts: the peak shifts
+          earlier each release year.</figcaption>
+      </figure>
+      <ul class="actions">
+        <li><a href="https://arxiv.org/pdf/2604.07530" class="icon fa-file-pdf-o">PDF</a></li>
+        <li><a href="https://arxiv.org/abs/2604.07530" class="icon fa-external-link">arXiv</a></li>
+      </ul>
+    </div>
+  </article>
+</section>
+
+<article class="box oct-paper">
+  <div class="content">
+    <h3>Open Science, Closed Models: How Funding Shapes AI in Science</h3>
+    <p class="oct-meta">
+      Ana Trišović, Janakan Sivaloganathan.<br>
+      <em>AAAI/ACM Conference on AI, Ethics, and Society (AIES)</em>, 2026.
+    </p>
+    <p>
+      <strong>Key finding:</strong> Across 104,226 papers (2018–2025), the gap across research systems is not one of
+      AI adoption but of control: off-the-shelf use is rising across fields and country groups, and the least publicly
+      funded group, the Global South, now has the highest share of API-only engagement (0.4% to 10.0% of engaged
+      papers).
+    </p>
+    <figure>
+      <img src="images/current/funding-engagement.webp" width="1584" height="528" loading="lazy" decoding="async"
+        alt="Three panels of horizontal bar charts showing the change, in percentage points, in the probability that a paper builds on or fine-tunes AI, uses off-the-shelf AI, or uses an open-weight model, for papers with public funding only, public and private funding, private funding only, cloud credits, and industry involvement, relative to papers with no identified funding, with 95% confidence intervals. Public funding bars are positive in all three panels, while cloud credits are negative for open-weight use.">
+      <figcaption>Public funding is associated with broad AI engagement in science, credit programs with closed
+        models. Change in probability versus papers with no identified funding, in percentage points.</figcaption>
+    </figure>
+    <ul class="actions">
+      <li><a href="https://arxiv.org/pdf/2609.25347" class="icon fa-file-pdf-o">PDF</a></li>
+      <li><a href="https://arxiv.org/abs/2609.25347" class="icon fa-external-link">arXiv</a></li>
+    </ul>
+  </div>
+</article>
+
+<article class="box oct-paper">
+  <div class="content">
+    <h3>The Rapid Growth of AI Foundation Model Usage in Science</h3>
+    <p class="oct-meta">
+      Ana Trišović<sup>&dagger;</sup>, Alex Fogelson<sup>&dagger;</sup>, Janakan Sivaloganathan, Neil Thompson.
+      <small>(<sup>&dagger;</sup>These authors share first authorship.)</small><br>
+      <!-- PLACEHOLDER: venue to be confirmed by Ana (no venue listed on arXiv; manuscript is in Science format) -->
+      <em>arXiv preprint</em>, 2025.
+    </p>
+    <p>
+      <strong>Key finding:</strong> Citing a foundation model proves nearly three times as common as using one;
+      adoption has nonetheless grown near-exponentially, reaching well over one percent of all publications by 2024,
+      yet the science built on these models runs far behind the AI frontier.
+    </p>
+    <figure>
+      <img src="images/current/foundation-model-usage.webp" width="1215" height="1274" loading="lazy"
+        decoding="async"
+        alt="Two-part line chart on a logarithmic scale. Panel A shows the share of all scientific publications from 2015 to 2025 that cite foundation models in the background (reaching 3%), use a model (1.3%), extend a model (0.1%), or release a flagship model, all rising over time. Panel B shows the share of publications adopting foundation models by field, from 34% in Linguistics and 19% in Computer Science down to 0.24% in Economics.">
+      <figcaption>Share of total scientific publications engaging with foundation models (A), and share of
+        publications adopting foundation models by field (B).</figcaption>
+    </figure>
+    <ul class="actions">
+      <li><a href="https://arxiv.org/pdf/2511.21739" class="icon fa-file-pdf-o">PDF</a></li>
+      <li><a href="https://arxiv.org/abs/2511.21739" class="icon fa-external-link">arXiv</a></li>
+    </ul>
+  </div>
+</article>
+
+
+
+<!-- "What's next" section intentionally omitted: no text provided. -->
